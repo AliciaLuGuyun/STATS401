@@ -3,12 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 2</title>
+  <title>Lab 2 - Multivariate Visualization</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <h1>Lab 2</h1>
-  <p>Lab 2 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+
+  <h1>Lab 2: Multivariate City Visualization</h1>
+  <p>This visualization compares population, temperature, development level, and region for twelve cities.</p>
+
+  <div id="chart"><p>Loading data...</p></div>
+  <div id="tooltip" class="tooltip"></div>
+
+  <section>
+    <h2>Design Justification</h2>
+    <p>
+      I used a separate row for each city so viewers can identify and compare individual observations easily.
+      Population is represented by horizontal bar length because length makes numerical comparisons clear.
+      Average temperature is represented by the horizontal position of a circle on a separate temperature scale.
+      Region is encoded with color because it is a nominal category without a natural order. Development level is
+      represented by circle size, with larger circles indicating higher development levels. Keeping population bars
+      and temperature markers in separate aligned sections avoids comparing values that use different units on the
+      same scale. This design allows viewers to compare population and temperature across cities while also noticing
+      regional patterns and differences in development level.
+    </p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab2.js"></script>
 </body>
 </html>
