@@ -78,3 +78,18 @@ p {
 .error {
   color: darkred;
 }
+
+.tooltip {
+  position: absolute;
+  padding: 8px 10px;
+  background: white;
+  border: 1px solid #999;
+  pointer-events: none;
+  opacity: 0;
+  font-size: 14px;
+}
+
+.population-bar,
+.temperature-point {
+  cursor: pointer;
+}
