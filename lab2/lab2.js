@@ -117,15 +117,47 @@ function drawChart(data) {
       tooltip.style("opacity", 0);
     });
 
+  const developmentLevels = sizeScale.domain();
+  const developmentLegend = svg.append("g")
+    .attr("transform", `translate(${populationStart}, ${height - 20})`);
+
+  developmentLegend.append("text")
+    .attr("x", 0)
+    .attr("y", 4)
+    .attr("font-weight", "bold")
+    .text("Development:");
+
+  const developmentItems = developmentLegend.selectAll(".development-item")
+    .data(developmentLevels)
+    .join("g")
+    .attr("class", "development-item")
+    .attr("transform", (d, i) => `translate(${105 + i * 75}, 0)`);
+
+  developmentItems.append("circle")
+    .attr("r", d => sizeScale(d))
+    .attr("fill", "#777")
+    .attr("stroke", "#333");
+
+  developmentItems.append("text")
+    .attr("x", 15)
+    .attr("y", 4)
+    .text(d => d);
+
   const regions = colorScale.domain();
   const legend = svg.append("g")
     .attr("transform", `translate(${temperatureStart}, ${height - 20})`);
+
+  legend.append("text")
+    .attr("x", 0)
+    .attr("y", 4)
+    .attr("font-weight", "bold")
+    .text("Region:");
 
   const legendItems = legend.selectAll(".legend-item")
     .data(regions)
     .join("g")
     .attr("class", "legend-item")
-    .attr("transform", (d, i) => `translate(${i * 90}, 0)`);
+    .attr("transform", (d, i) => `translate(${60 + i * 80}, 0)`);
 
   legendItems.append("circle")
     .attr("r", 6)
