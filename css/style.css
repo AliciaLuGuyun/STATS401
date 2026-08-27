@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #222;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 30px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.lab-nav a {
+  padding: 8px 14px;
+  text-decoration: none;
+  background: #f1f1f1;
+  color: #333;
+  border-radius: 5px;
+}
+
+.lab-nav a:hover,
+.lab-nav a.active {
+  background: #333;
+  color: white;
+}
+
+#chart {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+#chart svg {
+  display: block;
+  min-width: 700px;
+  width: 100%;
+  height: auto;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: darkorange;
+}
+
+.baseline {
+  stroke: #999;
+}
+
+.student-name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.student-score {
+  font-size: 12px;
+  fill: #555;
+}
+
+.error {
+  color: darkred;
+}
