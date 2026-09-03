@@ -1,0 +1,1201 @@
+year,stateabbr,locationname,category,measure,data_value,data_value_unit
+2023,AR,Drew,Health Outcomes,Arthritis among adults,29.9,%
+2023,AR,Fulton,Health Outcomes,Current asthma among adults,10.6,%
+2023,AR,Howard,Health Outcomes,Arthritis among adults,31.2,%
+2023,AR,Miller,Health Outcomes,Stroke among adults,4.7,%
+2023,AR,Ouachita,Disability,Any disability among adults,42.8,%
+2023,AR,Pulaski,Health Outcomes,Stroke among adults,3.9,%
+2023,AR,Van Buren,Health Outcomes,Stroke among adults,5.4,%
+2023,CA,Marin,Disability,Any disability among adults,27.5,%
+2023,CO,Dolores,Health Outcomes,Arthritis among adults,30.2,%
+2023,CO,Lake,Health Outcomes,Current asthma among adults,10.2,%
+2023,CO,Phillips,Health Outcomes,Arthritis among adults,29.6,%
+2023,CO,Routt,Health Outcomes,Arthritis among adults,24.7,%
+2023,CO,Yuma,Health Outcomes,Obesity among adults,28.4,%
+2023,FL,Brevard,Health Outcomes,Diagnosed diabetes among adults,13.1,%
+2023,FL,Citrus,Health Outcomes,Diagnosed diabetes among adults,15.8,%
+2023,FL,Flagler,Health Outcomes,Depression among adults,18.3,%
+2023,FL,Highlands,Health Outcomes,Arthritis among adults,25.1,%
+2023,FL,Martin,Health Outcomes,Stroke among adults,2.7,%
+2023,FL,Seminole,Health Outcomes,Depression among adults,16.4,%
+2023,GA,Carroll,Disability,Hearing disability among adults,6.8,%
+2023,GA,Catoosa,Health Outcomes,Obesity among adults,33.9,%
+2023,GA,Clayton,Health Outcomes,Stroke among adults,4.3,%
+2023,GA,Jeff Davis,Health Outcomes,Stroke among adults,4.8,%
+2023,GA,Lowndes,Health Outcomes,Stroke among adults,3.8,%
+2023,GA,McDuffie,Disability,Any disability among adults,36.6,%
+2023,GA,Peach,Health Outcomes,Obesity among adults,39.3,%
+2023,GA,Sumter,Health Outcomes,Arthritis among adults,28.3,%
+2023,GA,Sumter,Health Outcomes,Stroke among adults,4.8,%
+2023,GA,Turner,Health Outcomes,Arthritis among adults,27.3,%
+2023,GA,Twiggs,Health Outcomes,Obesity among adults,39.7,%
+2023,GA,Twiggs,Health Outcomes,Stroke among adults,4.1,%
+2023,GA,Wheeler,Health Outcomes,Depression among adults,19.0,%
+2023,ID,Bannock,Health Outcomes,Stroke among adults,3.1,%
+2023,ID,Caribou,Disability,Hearing disability among adults,10.1,%
+2023,ID,Clearwater,Health Outcomes,Stroke among adults,3.1,%
+2023,ID,Owyhee,Health Outcomes,Arthritis among adults,29.9,%
+2023,IL,Brown,Health Outcomes,Arthritis among adults,24.5,%
+2023,IL,Bureau,Health Outcomes,Stroke among adults,4.1,%
+2023,IL,Cook,Health Outcomes,Obesity among adults,31.0,%
+2023,IL,Douglas,Health Outcomes,Depression among adults,22.6,%
+2023,IL,Lee,Health Outcomes,Arthritis among adults,29.0,%
+2023,IN,Clay,Health Outcomes,Stroke among adults,3.1,%
+2023,IN,Dubois,Disability,Any disability among adults,31.1,%
+2023,IN,Henry,Health Outcomes,Stroke among adults,3.9,%
+2023,IN,Johnson,Health Outcomes,Arthritis among adults,26.0,%
+2023,IN,LaGrange,Health Outcomes,Arthritis among adults,28.3,%
+2023,IN,Marshall,Health Outcomes,Stroke among adults,3.9,%
+2023,IN,Pike,Health Outcomes,Arthritis among adults,33.3,%
+2023,IN,Pike,Disability,Any disability among adults,34.5,%
+2023,IN,Scott,Health Outcomes,Stroke among adults,3.9,%
+2023,IN,Spencer,Disability,Hearing disability among adults,8.0,%
+2023,IN,Steuben,Health Outcomes,Stroke among adults,3.7,%
+2023,IA,Fremont,Health Outcomes,Depression among adults,20.1,%
+2023,IA,Scott,Health Outcomes,Arthritis among adults,28.8,%
+2023,IA,Tama,Health Outcomes,Obesity among adults,40.2,%
+2023,KS,Anderson,Health Outcomes,Arthritis among adults,30.9,%
+2023,KS,Barber,Health Risk Behaviors,Binge drinking among adults,14.5,%
+2023,KS,Haskell,Health Outcomes,Diagnosed diabetes among adults,13.2,%
+2023,KS,Jackson,Health Outcomes,Stroke among adults,2.9,%
+2023,KS,Wabaunsee,Health Outcomes,Obesity among adults,35.1,%
+2023,KS,Wallace,Disability,Any disability among adults,35.3,%
+2023,LA,Cameron,Disability,Hearing disability among adults,9.3,%
+2023,LA,Red River,Health Outcomes,Arthritis among adults,35.0,%
+2023,LA,Red River,Disability,Hearing disability among adults,10.1,%
+2023,ME,Hancock,Health Outcomes,Current asthma among adults,12.1,%
+2023,ME,Lincoln,Health Outcomes,Arthritis among adults,37.2,%
+2023,MD,Carroll,Health Outcomes,Current asthma among adults,10.1,%
+2023,MI,Antrim,Health Outcomes,Stroke among adults,2.7,%
+2023,MI,Baraga,Disability,Any disability among adults,37.3,%
+2023,MI,Cass,Disability,Hearing disability among adults,8.8,%
+2023,MI,Gogebic,Disability,Any disability among adults,36.6,%
+2023,MI,Hillsdale,Health Outcomes,Stroke among adults,4.2,%
+2023,MI,Iosco,Health Outcomes,Stroke among adults,5.3,%
+2023,MI,Lenawee,Health Outcomes,Arthritis among adults,29.8,%
+2023,MN,Anoka,Health Outcomes,Arthritis among adults,21.7,%
+2023,MN,Blue Earth,Health Outcomes,Diagnosed diabetes among adults,9.4,%
+2023,MN,Grant,Health Outcomes,Obesity among adults,39.7,%
+2023,MN,Jackson,Health Risk Behaviors,Binge drinking among adults,16.7,%
+2023,MN,Marshall,Health Outcomes,Arthritis among adults,21.1,%
+2023,NE,Cherry,Health Outcomes,Stroke among adults,4.1,%
+2023,NE,Dawes,Health Outcomes,Obesity among adults,35.5,%
+2023,NE,Garfield,Health Outcomes,Obesity among adults,38.8,%
+2023,NE,Perkins,Health Outcomes,Obesity among adults,40.7,%
+2023,NE,Thomas,Health Outcomes,Current asthma among adults,9.0,%
+2023,NE,Valley,Health Outcomes,Arthritis among adults,30.5,%
+2023,NE,Wayne,Health Outcomes,Obesity among adults,37.3,%
+2023,NE,Webster,Health Outcomes,Depression among adults,17.6,%
+2023,NV,Elko,Health Outcomes,Stroke among adults,3.3,%
+2023,NV,Mineral,Health Outcomes,Obesity among adults,38.4,%
+2023,NV,Nye,Health Outcomes,Depression among adults,21.0,%
+2023,NV,White Pine,Disability,Any disability among adults,37.6,%
+2023,NJ,Hudson,Health Outcomes,Stroke among adults,2.6,%
+2023,NM,Catron,Health Outcomes,Arthritis among adults,38.8,%
+2023,NM,Lincoln,Health Outcomes,Stroke among adults,4.7,%
+2023,NM,Los Alamos,Health Outcomes,Depression among adults,20.5,%
+2023,NM,Otero,Health Outcomes,Stroke among adults,3.9,%
+2023,NM,Quay,Health Outcomes,Depression among adults,22.3,%
+2023,NM,Taos,Health Outcomes,Arthritis among adults,30.5,%
+2023,NY,Chemung,Health Outcomes,Stroke among adults,3.8,%
+2023,NY,Chenango,Health Outcomes,Stroke among adults,4.1,%
+2023,NY,Columbia,Health Outcomes,Stroke among adults,3.9,%
+2023,NY,Cortland,Health Outcomes,Stroke among adults,3.1,%
+2023,NY,Ontario,Health Outcomes,Diagnosed diabetes among adults,10.5,%
+2023,NY,Schuyler,Health Outcomes,Stroke among adults,3.0,%
+2023,NC,Alexander,Health Outcomes,Obesity among adults,36.5,%
+2023,NC,Bertie,Health Outcomes,Stroke among adults,6.3,%
+2023,NC,Bladen,Disability,Any disability among adults,39.1,%
+2023,NC,Halifax,Health Outcomes,Obesity among adults,42.6,%
+2023,NC,Henderson,Health Outcomes,Obesity among adults,30.3,%
+2023,NC,Pamlico,Health Outcomes,Depression among adults,23.0,%
+2023,NC,Pamlico,Health Outcomes,Obesity among adults,36.0,%
+2023,NC,Pender,Health Outcomes,Depression among adults,24.8,%
+2023,NC,Richmond,Health Outcomes,Obesity among adults,42.9,%
+2023,ND,Adams,Health Risk Behaviors,Binge drinking among adults,16.2,%
+2023,ND,Divide,Health Outcomes,Arthritis among adults,31.7,%
+2023,ND,Golden Valley,Health Outcomes,Obesity among adults,37.6,%
+2023,ND,Towner,Health Outcomes,Stroke among adults,3.3,%
+2023,ND,Walsh,Disability,Any disability among adults,31.9,%
+2023,OH,Brown,Health Outcomes,Obesity among adults,41.6,%
+2023,OH,Butler,Health Outcomes,Obesity among adults,39.0,%
+2023,OH,Butler,Health Outcomes,Stroke among adults,3.3,%
+2023,OH,Clark,Health Outcomes,Stroke among adults,4.2,%
+2023,OH,Fulton,Health Risk Behaviors,Binge drinking among adults,16.2,%
+2023,OH,Highland,Health Outcomes,Obesity among adults,41.3,%
+2023,OH,Holmes,Health Outcomes,Depression among adults,29.3,%
+2023,OH,Jackson,Health Outcomes,Arthritis among adults,33.5,%
+2023,OH,Lucas,Health Outcomes,Obesity among adults,36.1,%
+2023,OH,Madison,Health Outcomes,Depression among adults,25.2,%
+2023,OH,Miami,Health Outcomes,Obesity among adults,33.6,%
+2023,OH,Pickaway,Health Outcomes,Stroke among adults,3.5,%
+2023,OH,Putnam,Health Outcomes,Arthritis among adults,30.5,%
+2023,OH,Scioto,Disability,Any disability among adults,37.9,%
+2023,OH,Scioto,Health Outcomes,Obesity among adults,44.7,%
+2023,OH,Union,Health Outcomes,Arthritis among adults,26.0,%
+2023,OK,Beaver,Health Outcomes,Stroke among adults,4.1,%
+2023,OK,Cotton,Health Outcomes,Stroke among adults,4.7,%
+2023,OK,Greer,Health Outcomes,Diagnosed diabetes among adults,13.0,%
+2023,OK,Kiowa,Health Outcomes,Stroke among adults,3.9,%
+2023,OK,Mayes,Health Outcomes,Depression among adults,25.1,%
+2023,OK,Muskogee,Health Outcomes,Stroke among adults,4.0,%
+2023,OK,Oklahoma,Health Outcomes,Current asthma among adults,11.5,%
+2023,OK,Oklahoma,Health Outcomes,Obesity among adults,37.9,%
+2023,OK,Pontotoc,Health Outcomes,Stroke among adults,3.8,%
+2023,OR,Curry,Health Outcomes,Arthritis among adults,38.9,%
+2023,OR,Lake,Health Outcomes,Stroke among adults,4.7,%
+2023,OR,Malheur,Health Outcomes,Depression among adults,24.8,%
+2023,OR,Wallowa,Health Outcomes,Stroke among adults,4.1,%
+2023,OR,Wheeler,Health Outcomes,Stroke among adults,5.6,%
+2023,SC,Colleton,Health Outcomes,Obesity among adults,39.3,%
+2023,SC,Pickens,Health Outcomes,Depression among adults,25.4,%
+2023,SC,Pickens,Health Outcomes,Obesity among adults,35.4,%
+2023,SD,Beadle,Health Outcomes,Stroke among adults,4.0,%
+2023,SD,Dewey,Health Outcomes,Arthritis among adults,26.8,%
+2023,SD,Jones,Health Outcomes,Stroke among adults,4.6,%
+2023,SD,Sully,Health Outcomes,Depression among adults,18.8,%
+2023,SD,Walworth,Disability,Any disability among adults,32.9,%
+2023,TN,Davidson,Health Outcomes,Stroke among adults,2.9,%
+2023,TN,DeKalb,Health Outcomes,Stroke among adults,4.5,%
+2023,TN,Fentress,Health Outcomes,Depression among adults,30.4,%
+2023,TN,Haywood,Health Outcomes,Stroke among adults,5.9,%
+2023,TN,Sullivan,Health Outcomes,Stroke among adults,3.2,%
+2023,TN,Union,Health Outcomes,Diagnosed diabetes among adults,14.6,%
+2023,TX,Bell,Health Outcomes,Stroke among adults,3.2,%
+2023,TX,Caldwell,Disability,Hearing disability among adults,7.5,%
+2023,TX,Colorado,Health Outcomes,Depression among adults,21.1,%
+2023,TX,Gray,Health Outcomes,High blood pressure among adults,37.6,%
+2023,TX,Hansford,Health Outcomes,Stroke among adults,3.2,%
+2023,TX,Hockley,Health Outcomes,Stroke among adults,3.6,%
+2023,TX,Irion,Disability,Vision disability among adults,5.3,%
+2023,TX,Jack,Disability,Vision disability among adults,6.4,%
+2023,TX,King,Health Outcomes,Stroke among adults,5.3,%
+2023,TX,Menard,Health Outcomes,Stroke among adults,3.2,%
+2023,TX,Mills,Health Outcomes,Obesity among adults,33.0,%
+2023,TX,Moore,Health Outcomes,Obesity among adults,39.0,%
+2023,TX,Palo Pinto,Health Outcomes,Depression among adults,24.0,%
+2023,TX,Panola,Health Outcomes,Stroke among adults,4.2,%
+2023,TX,Polk,Health Outcomes,Arthritis among adults,29.4,%
+2023,TX,Rains,Health Risk Behaviors,Binge drinking among adults,15.8,%
+2023,UT,Carbon,Health Outcomes,Arthritis among adults,30.3,%
+2023,UT,Emery,Disability,Mobility disability among adults,14.0,%
+2023,UT,Salt Lake,Health Outcomes,Arthritis among adults,21.2,%
+2023,UT,Sevier,Health Outcomes,Arthritis among adults,28.1,%
+2023,UT,Utah,Disability,Self-care disability among adults,2.3,%
+2023,UT,Wayne,Health Outcomes,Depression among adults,27.3,%
+2023,UT,Weber,Health Outcomes,Obesity among adults,34.7,%
+2023,UT,Weber,Health Outcomes,Stroke among adults,2.6,%
+2023,VA,Amherst,Health Outcomes,Diagnosed diabetes among adults,15.1,%
+2023,VA,Augusta,Health Outcomes,Diagnosed diabetes among adults,13.2,%
+2023,VA,Louisa,Health Outcomes,Depression among adults,23.0,%
+2023,VA,Mecklenburg,Disability,Any disability among adults,38.1,%
+2023,VA,Nelson,Health Outcomes,Stroke among adults,3.0,%
+2023,VA,Northampton,Health Outcomes,Stroke among adults,5.4,%
+2023,VA,Sussex,Health Outcomes,Obesity among adults,45.5,%
+2023,VA,Radford,Disability,Hearing disability among adults,5.7,%
+2023,VA,Richmond,Health Outcomes,Stroke among adults,3.5,%
+2023,VA,Salem,Health Outcomes,Arthritis among adults,29.1,%
+2023,VA,Staunton,Health Outcomes,Stroke among adults,3.0,%
+2023,WA,Island,Health Outcomes,Stroke among adults,3.5,%
+2023,WV,Lewis,Health Outcomes,Stroke among adults,4.4,%
+2023,WV,Ohio,Health Outcomes,Obesity among adults,40.1,%
+2023,WI,Burnett,Health Outcomes,Stroke among adults,4.9,%
+2023,WI,Jefferson,Health Outcomes,Stroke among adults,2.7,%
+2023,WI,Juneau,Health Outcomes,Stroke among adults,4.3,%
+2023,WI,Langlade,Health Outcomes,Stroke among adults,4.5,%
+2023,WI,Menominee,Health Outcomes,Stroke among adults,5.0,%
+2023,WI,Pepin,Health Outcomes,Stroke among adults,2.7,%
+2023,WI,Rock,Disability,Hearing disability among adults,7.1,%
+2023,WI,Vernon,Health Outcomes,Stroke among adults,3.1,%
+2023,WI,Waupaca,Health Outcomes,Stroke among adults,3.8,%
+2023,WI,Waushara,Health Outcomes,Stroke among adults,4.4,%
+2023,AR,Searcy,Health Status,Frequent mental distress among adults,22.1,%
+2023,AL,Escambia,Health Outcomes,Arthritis among adults,29.2,%
+2023,AZ,Navajo,Health Outcomes,High cholesterol among adults who have ever been screened,29.7,%
+2023,AL,Calhoun,Health Risk Behaviors,Binge drinking among adults,15.6,%
+2023,AR,St. Francis,Health Outcomes,Depression among adults,21.7,%
+2023,CA,Lassen,Health Status,Frequent physical distress among adults,15.6,%
+2023,CA,Lake,Disability,Mobility disability among adults,15.1,%
+2023,AL,Chilton,Health Outcomes,Current asthma among adults,10.0,%
+2023,US,,Disability,Self-care disability among adults,3.4,%
+2022,AR,Faulkner,Prevention,Colorectal cancer screening among adults aged 45–75 years,60.1,%
+2023,CA,Kern,Health Risk Behaviors,No leisure-time physical activity among adults,31.9,%
+2023,CA,Glenn,Disability,Any disability among adults,35.7,%
+2023,AL,Winston,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.4,%
+2023,AK,Bristol Bay,Disability,Independent living disability among adults,8.0,%
+2023,AK,Sitka,Health Outcomes,Coronary heart disease among adults,5.0,%
+2022,AK,Anchorage,Prevention,Mammography use among women aged 50-74 years,69.0,%
+2023,AR,Yell,Prevention,Visits to doctor for routine checkup within the past year among adults,75.1,%
+2023,AR,Cleburne,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,58.2,%
+2023,AR,Johnson,Health Risk Behaviors,Current cigarette smoking among adults,18.3,%
+2023,AR,Montgomery,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,11.8,%
+2023,CA,Riverside,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,9.1,%
+2023,AL,Escambia,Health-Related Social Needs,Food insecurity in the past 12 months among adults,29.9,%
+2023,AZ,Coconino,Disability,Mobility disability among adults,11.2,%
+2023,AL,Jefferson,Health Status,Frequent mental distress among adults,17.5,%
+2023,AR,Pope,Disability,Independent living disability among adults,10.3,%
+2023,AZ,Mohave,Health Risk Behaviors,No leisure-time physical activity among adults,29.7,%
+2022,AL,Winston,Health Outcomes,All teeth lost among adults aged >=65 years,14.5,%
+2023,AL,Coffee,Health Status,Fair or poor self-rated health status among adults,23.9,%
+2023,AL,Covington,Health Outcomes,Obesity among adults,38.1,%
+2023,CA,Fresno,Health Outcomes,High blood pressure among adults,31.4,%
+2023,AK,Aleutians East,Disability,Self-care disability among adults,3.7,%
+2023,AK,Bethel,Health Outcomes,High blood pressure among adults,37.5,%
+2022,AL,Choctaw,Health Outcomes,All teeth lost among adults aged >=65 years,22.0,%
+2023,AR,Cleburne,Disability,Mobility disability among adults,21.1,%
+2022,AL,Houston,Prevention,Colorectal cancer screening among adults aged 45–75 years,66.7,%
+2023,AK,Prince of Wales-Hyder,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.4,%
+2023,CA,Mariposa,Health Outcomes,Stroke among adults,4.6,%
+2023,AR,White,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.3,%
+2023,AR,Cleveland,Health Outcomes,High blood pressure among adults,39.4,%
+2023,AR,Ashley,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.5,%
+2023,AL,Greene,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,21.8,%
+2023,AR,Newton,Health Outcomes,Current asthma among adults,10.3,%
+2023,CA,Fresno,Health Outcomes,High cholesterol among adults who have ever been screened,32.7,%
+2023,AK,Dillingham,Health Risk Behaviors,Binge drinking among adults,18.2,%
+2023,AR,Perry,Health Status,Frequent physical distress among adults,16.9,%
+2023,AL,Marshall,Health Outcomes,Diagnosed diabetes among adults,12.4,%
+2023,AR,Franklin,Health-Related Social Needs,Lack of social and emotional support among adults,27.3,%
+2022,AL,Morgan,Prevention,Visited dentist or dental clinic in the past year among adults,55.7,%
+2023,CA,Del Norte,Health Status,Fair or poor self-rated health status among adults,23.1,%
+2023,AL,Coosa,Health Status,Frequent physical distress among adults,17.0,%
+2022,AZ,Navajo,Prevention,Mammography use among women aged 50-74 years,63.9,%
+2023,CA,Imperial,Health-Related Social Needs,Loneliness among adults,38.2,%
+2023,AL,Conecuh,Health Status,Frequent mental distress among adults,20.8,%
+2023,AL,Morgan,Health-Related Social Needs,Received food stamps in the past 12 months among adults,13.0,%
+2023,AL,Franklin,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,11.4,%
+2023,AZ,Yuma,Prevention,Current lack of health insurance among adults aged 18-64 years,24.1,%
+2023,CA,Alpine,Disability,Independent living disability among adults,7.4,%
+2023,AR,Boone,Disability,Hearing disability among adults,7.6,%
+2023,AL,Cherokee,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,59.8,%
+2023,AK,Sitka,Health Outcomes,Current asthma among adults,10.1,%
+2023,CA,Kings,Disability,Cognitive disability among adults,18.6,%
+2023,CA,Lake,Disability,Cognitive disability among adults,16.7,%
+2023,CA,Colusa,Health Risk Behaviors,Current cigarette smoking among adults,13.5,%
+2023,AZ,Yavapai,Disability,Independent living disability among adults,8.0,%
+2023,AL,Russell,Prevention,Current lack of health insurance among adults aged 18-64 years,11.9,%
+2023,CA,Placer,Health Status,Frequent physical distress among adults,11.3,%
+2023,AK,Yukon-Koyukuk,Health Outcomes,High blood pressure among adults,41.4,%
+2023,CA,Sacramento,Disability,Vision disability among adults,5.1,%
+2023,AR,Nevada,Health Outcomes,Obesity among adults,44.0,%
+2023,AL,Pike,Health Outcomes,High cholesterol among adults who have ever been screened,35.2,%
+2023,AL,Mobile,Health Status,Fair or poor self-rated health status among adults,23.0,%
+2023,AL,Dale,Health-Related Social Needs,Food insecurity in the past 12 months among adults,22.2,%
+2023,CA,Placer,Health Outcomes,Obesity among adults,27.2,%
+2023,AL,Winston,Disability,Mobility disability among adults,21.7,%
+2023,AR,Howard,Health Outcomes,Diagnosed diabetes among adults,15.2,%
+2023,AL,Coffee,Health Risk Behaviors,No leisure-time physical activity among adults,28.8,%
+2023,AR,Woodruff,Health Risk Behaviors,Binge drinking among adults,14.7,%
+2023,AR,Dallas,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,19.1,%
+2023,AR,Phillips,Health-Related Social Needs,Received food stamps in the past 12 months among adults,29.6,%
+2023,AL,Crenshaw,Health-Related Social Needs,Food insecurity in the past 12 months among adults,21.8,%
+2023,CA,Riverside,Health-Related Social Needs,Food insecurity in the past 12 months among adults,21.0,%
+2023,AR,Saline,Health-Related Social Needs,Food insecurity in the past 12 months among adults,13.7,%
+2022,CA,Marin,Prevention,Colorectal cancer screening among adults aged 45–75 years,65.4,%
+2023,AL,Elmore,Health Outcomes,Coronary heart disease among adults,6.7,%
+2023,AK,Lake and Peninsula,Health-Related Social Needs,Lack of social and emotional support among adults,30.3,%
+2022,AK,Aleutians East,Prevention,Visited dentist or dental clinic in the past year among adults,48.1,%
+2023,AR,Pike,Health Outcomes,Current asthma among adults,10.3,%
+2023,AR,Baxter,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,82.3,%
+2023,AL,Mobile,Health Outcomes,Chronic obstructive pulmonary disease among adults,7.9,%
+2023,AL,Colbert,Disability,Independent living disability among adults,9.7,%
+2023,AR,Washington,Disability,Mobility disability among adults,13.9,%
+2023,AK,Sitka,Health Status,Frequent physical distress among adults,11.6,%
+2023,AR,Desha,Health Outcomes,High blood pressure among adults,46.7,%
+2022,CA,Del Norte,Prevention,Visited dentist or dental clinic in the past year among adults,53.4,%
+2023,AL,Winston,Health Risk Behaviors,Binge drinking among adults,16.0,%
+2023,AK,Hoonah-Angoon,Health Status,Frequent physical distress among adults,14.9,%
+2023,AL,Butler,Disability,Self-care disability among adults,5.5,%
+2023,AR,St. Francis,Disability,Any disability among adults,43.4,%
+2023,AZ,Graham,Health Risk Behaviors,Current cigarette smoking among adults,15.2,%
+2023,AL,Marshall,Health Status,Fair or poor self-rated health status among adults,23.5,%
+2023,CA,San Benito,Health Status,Fair or poor self-rated health status among adults,22.6,%
+2022,AL,Tuscaloosa,Health Outcomes,All teeth lost among adults aged >=65 years,15.2,%
+2023,AR,Crittenden,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.6,%
+2023,AK,Juneau,Health Risk Behaviors,Binge drinking among adults,20.0,%
+2023,AR,Pope,Prevention,Visits to doctor for routine checkup within the past year among adults,76.5,%
+2023,CA,Inyo,Health Risk Behaviors,No leisure-time physical activity among adults,21.1,%
+2023,AR,Bradley,Prevention,Cholesterol screening among adults,84.7,%
+2023,AK,Aleutians West,Health-Related Social Needs,Received food stamps in the past 12 months among adults,8.9,%
+2023,AK,Nome,Prevention,Cholesterol screening among adults,74.1,%
+2023,CA,Madera,Health-Related Social Needs,Food insecurity in the past 12 months among adults,28.0,%
+2023,AL,Greene,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,19.8,%
+2022,AR,Sevier,Prevention,Colorectal cancer screening among adults aged 45–75 years,51.8,%
+2023,CA,Mono,Health Outcomes,Arthritis among adults,20.4,%
+2023,AL,Montgomery,Health Outcomes,Coronary heart disease among adults,6.9,%
+2023,AK,Fairbanks North Star,Health Outcomes,High blood pressure among adults,31.7,%
+2023,AL,Choctaw,Health Outcomes,Obesity among adults,44.4,%
+2023,AK,Chugach,Disability,Vision disability among adults,4.3,%
+2022,AR,Ouachita,Prevention,Colorectal cancer screening among adults aged 45–75 years,62.3,%
+2022,AL,Conecuh,Prevention,Visited dentist or dental clinic in the past year among adults,48.7,%
+2023,AR,Ouachita,Health Status,Fair or poor self-rated health status among adults,29.3,%
+2022,AK,Petersburg,Health Risk Behaviors,Short sleep duration among adults,32.5,%
+2023,AR,Ouachita,Disability,Vision disability among adults,7.1,%
+2023,AZ,La Paz,Disability,Vision disability among adults,8.8,%
+2023,CA,Plumas,Prevention,Visits to doctor for routine checkup within the past year among adults,70.2,%
+2023,AR,Lawrence,Health-Related Social Needs,Loneliness among adults,35.5,%
+2023,AL,Bibb,Disability,Hearing disability among adults,8.4,%
+2023,AL,Tuscaloosa,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,14.3,%
+2022,AR,Baxter,Health Risk Behaviors,Short sleep duration among adults,37.4,%
+2023,AR,Conway,Health Outcomes,High blood pressure among adults,46.8,%
+2023,AL,Henry,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.7,%
+2023,AL,Colbert,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,60.2,%
+2023,AR,Marion,Health-Related Social Needs,Lack of social and emotional support among adults,27.0,%
+2023,AL,Sumter,Disability,Any disability among adults,40.4,%
+2022,AL,Autauga,Prevention,Mammography use among women aged 50-74 years,80.9,%
+2023,AR,Miller,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,13.6,%
+2022,AK,Kodiak Island,Prevention,Visited dentist or dental clinic in the past year among adults,55.7,%
+2023,AR,Marion,Health Outcomes,High cholesterol among adults who have ever been screened,33.0,%
+2023,AK,Hoonah-Angoon,Disability,Any disability among adults,33.7,%
+2023,CA,Plumas,Prevention,Cholesterol screening among adults,83.7,%
+2023,AR,Lawrence,Health Risk Behaviors,No leisure-time physical activity among adults,34.8,%
+2023,AL,Jackson,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,60.0,%
+2023,AR,Madison,Health Outcomes,Cancer (non-skin) or melanoma among adults,9.2,%
+2023,AR,Randolph,Prevention,Cholesterol screening among adults,80.6,%
+2023,AL,Cullman,Disability,Mobility disability among adults,14.2,%
+2023,AL,Clay,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,9.4,%
+2023,AR,Craighead,Prevention,Cholesterol screening among adults,83.6,%
+2023,AR,Crawford,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.7,%
+2023,AR,Howard,Health Risk Behaviors,Binge drinking among adults,15.4,%
+2023,AL,Clay,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,13.6,%
+2023,AL,Etowah,Health-Related Social Needs,Loneliness among adults,36.9,%
+2023,AL,Etowah,Health Status,Frequent physical distress among adults,16.4,%
+2023,AZ,Apache,Disability,Independent living disability among adults,14.3,%
+2023,AL,Russell,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.1,%
+2023,AL,Lamar,Health Outcomes,Current asthma among adults,10.5,%
+2023,AL,Montgomery,Disability,Cognitive disability among adults,16.4,%
+2023,CA,Merced,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,22.7,%
+2023,AL,Pike,Disability,Independent living disability among adults,11.3,%
+2023,AR,Prairie,Health Status,Frequent mental distress among adults,18.0,%
+2023,AR,Clark,Health Risk Behaviors,Current cigarette smoking among adults,15.0,%
+2023,CA,Nevada,Disability,Vision disability among adults,4.6,%
+2023,CA,Amador,Disability,Vision disability among adults,4.8,%
+2023,AL,Lee,Health Outcomes,Obesity among adults,39.9,%
+2023,AR,Carroll,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,10.2,%
+2023,AR,Sevier,Health Outcomes,High cholesterol among adults who have ever been screened,34.7,%
+2023,AL,Chambers,Health-Related Social Needs,Received food stamps in the past 12 months among adults,19.1,%
+2023,AL,Monroe,Health Risk Behaviors,Binge drinking among adults,13.4,%
+2023,AK,Chugach,Prevention,Visits to doctor for routine checkup within the past year among adults,65.7,%
+2023,AL,Pike,Health Outcomes,Obesity among adults,40.3,%
+2023,CA,Imperial,Health Outcomes,Current asthma among adults,9.2,%
+2023,AR,Clay,Health Outcomes,High cholesterol among adults who have ever been screened,41.1,%
+2023,CA,Contra Costa,Disability,Hearing disability among adults,5.8,%
+2023,AR,Drew,Health Outcomes,Obesity among adults,45.0,%
+2023,AL,Fayette,Disability,Cognitive disability among adults,19.5,%
+2023,AR,Dallas,Disability,Vision disability among adults,7.1,%
+2023,CA,San Benito,Health Outcomes,Cancer (non-skin) or melanoma among adults,5.7,%
+2023,AL,Autauga,Disability,Cognitive disability among adults,15.9,%
+2023,AL,Fayette,Prevention,Visits to doctor for routine checkup within the past year among adults,80.6,%
+2023,AR,Arkansas,Health-Related Social Needs,Lack of social and emotional support among adults,30.5,%
+2023,AL,Jefferson,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,15.0,%
+2022,AL,Elmore,Prevention,Visited dentist or dental clinic in the past year among adults,59.5,%
+2023,AL,Sumter,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.3,%
+2023,AR,Marion,Health Risk Behaviors,Binge drinking among adults,12.5,%
+2022,AK,Aleutians West,Health Risk Behaviors,Short sleep duration among adults,38.9,%
+2023,CA,Mono,Health Outcomes,Diagnosed diabetes among adults,10.5,%
+2023,AL,Elmore,Disability,Independent living disability among adults,9.0,%
+2023,AL,Conecuh,Health Outcomes,Coronary heart disease among adults,11.1,%
+2023,AZ,Apache,Health Outcomes,Coronary heart disease among adults,9.3,%
+2023,AR,Prairie,Health Outcomes,Cancer (non-skin) or melanoma among adults,10.0,%
+2022,AL,Talladega,Prevention,Visited dentist or dental clinic in the past year among adults,52.3,%
+2023,AL,DeKalb,Health Outcomes,Depression among adults,27.2,%
+2023,AL,Walker,Prevention,Visits to doctor for routine checkup within the past year among adults,79.9,%
+2023,AZ,Gila,Health Outcomes,Stroke among adults,5.2,%
+2023,AR,Mississippi,Prevention,Current lack of health insurance among adults aged 18-64 years,12.9,%
+2023,CA,El Dorado,Health-Related Social Needs,Received food stamps in the past 12 months among adults,9.3,%
+2023,AR,Conway,Prevention,Visits to doctor for routine checkup within the past year among adults,76.6,%
+2023,AZ,Cochise,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.8,%
+2023,CA,San Bernardino,Disability,Any disability among adults,31.5,%
+2023,AK,Kenai Peninsula,Disability,Independent living disability among adults,7.5,%
+2023,AR,Greene,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.3,%
+2023,CA,Mono,Health-Related Social Needs,Loneliness among adults,33.6,%
+2023,AK,Southeast Fairbanks,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,12.8,%
+2023,AK,Chugach,Health Risk Behaviors,No leisure-time physical activity among adults,20.9,%
+2023,AL,Covington,Health Outcomes,Diagnosed diabetes among adults,12.8,%
+2023,AK,Fairbanks North Star,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,6.8,%
+2022,AL,Henry,Prevention,Mammography use among women aged 50-74 years,75.5,%
+2023,AR,Pike,Health Status,Fair or poor self-rated health status among adults,26.3,%
+2023,AR,Yell,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,16.5,%
+2023,AZ,Greenlee,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,13.8,%
+2022,CA,Calaveras,Prevention,Mammography use among women aged 50-74 years,74.8,%
+2023,AR,Randolph,Health Outcomes,Coronary heart disease among adults,9.4,%
+2023,AK,Yakutat,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.2,%
+2022,AR,Grant,Health Risk Behaviors,Short sleep duration among adults,38.1,%
+2023,CA,Marin,Health-Related Social Needs,Lack of social and emotional support among adults,21.4,%
+2022,AL,DeKalb,Health Risk Behaviors,Short sleep duration among adults,40.3,%
+2023,AL,Washington,Health Status,Frequent mental distress among adults,17.7,%
+2023,AR,Union,Health Outcomes,High cholesterol among adults who have ever been screened,40.4,%
+2022,AL,Perry,Prevention,Colorectal cancer screening among adults aged 45–75 years,63.5,%
+2023,AR,Hot Spring,Health Outcomes,Current asthma among adults,10.3,%
+2023,AR,White,Prevention,Current lack of health insurance among adults aged 18-64 years,11.4,%
+2023,AL,Wilcox,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,29.0,%
+2022,AZ,Pima,Prevention,Colorectal cancer screening among adults aged 45–75 years,54.8,%
+2023,AZ,Gila,Prevention,Visits to doctor for routine checkup within the past year among adults,71.1,%
+2023,AR,Carroll,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,13.2,%
+2023,AK,Nome,Prevention,Visits to doctor for routine checkup within the past year among adults,64.0,%
+2023,AL,Madison,Health Status,Frequent mental distress among adults,16.0,%
+2023,CA,Modoc,Health Outcomes,Arthritis among adults,32.8,%
+2023,AR,Johnson,Health-Related Social Needs,Loneliness among adults,34.7,%
+2023,AK,Skagway,Health Risk Behaviors,Binge drinking among adults,19.7,%
+2023,CA,Sacramento,Health Risk Behaviors,Binge drinking among adults,14.2,%
+2023,AR,Grant,Health Status,Frequent physical distress among adults,15.0,%
+2023,AL,Monroe,Disability,Mobility disability among adults,23.8,%
+2023,AL,Cullman,Health Outcomes,High blood pressure among adults,37.3,%
+2023,AL,Limestone,Health-Related Social Needs,Food insecurity in the past 12 months among adults,15.4,%
+2023,AL,Dallas,Health Outcomes,Stroke among adults,5.2,%
+2023,AR,Crittenden,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,14.2,%
+2022,AL,Etowah,Prevention,Colorectal cancer screening among adults aged 45–75 years,56.0,%
+2023,AR,Logan,Health Outcomes,High cholesterol among adults who have ever been screened,41.3,%
+2023,AK,Kenai Peninsula,Health Outcomes,Obesity among adults,32.3,%
+2023,AR,Woodruff,Health Status,Fair or poor self-rated health status among adults,31.8,%
+2023,AR,Lee,Health-Related Social Needs,Lack of social and emotional support among adults,34.6,%
+2023,AL,Mobile,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.7,%
+2023,CA,Kings,Health Outcomes,Arthritis among adults,20.6,%
+2023,AL,Morgan,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,61.5,%
+2023,AL,Blount,Disability,Vision disability among adults,5.3,%
+2023,AL,Talladega,Prevention,Cholesterol screening among adults,83.3,%
+2023,AL,Marion,Health-Related Social Needs,Food insecurity in the past 12 months among adults,19.0,%
+2023,AR,Madison,Health Outcomes,High cholesterol among adults who have ever been screened,40.5,%
+2023,AL,Coosa,Health-Related Social Needs,Food insecurity in the past 12 months among adults,23.1,%
+2022,AK,Kodiak Island,Health Risk Behaviors,Short sleep duration among adults,38.5,%
+2023,CA,Los Angeles,Disability,Cognitive disability among adults,15.6,%
+2023,AL,Clarke,Health Outcomes,Obesity among adults,44.2,%
+2022,CA,Contra Costa,Health Outcomes,All teeth lost among adults aged >=65 years,8.2,%
+2023,AR,Dallas,Prevention,Visits to doctor for routine checkup within the past year among adults,78.1,%
+2023,CA,Madera,Prevention,Visits to doctor for routine checkup within the past year among adults,69.8,%
+2023,AR,Craighead,Health Risk Behaviors,Current cigarette smoking among adults,16.2,%
+2023,AR,Pope,Health Status,Fair or poor self-rated health status among adults,24.4,%
+2023,AR,Marion,Health Outcomes,Cancer (non-skin) or melanoma among adults,11.6,%
+2022,CA,El Dorado,Health Risk Behaviors,Short sleep duration among adults,32.1,%
+2023,CA,Colusa,Prevention,Current lack of health insurance among adults aged 18-64 years,17.6,%
+2023,AL,Bibb,Health Risk Behaviors,Current cigarette smoking among adults,19.9,%
+2023,AL,Madison,Health Status,Frequent physical distress among adults,11.8,%
+2023,AL,Shelby,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,58.7,%
+2022,AL,Monroe,Prevention,Colorectal cancer screening among adults aged 45–75 years,65.9,%
+2023,AR,Nevada,Health Outcomes,Coronary heart disease among adults,7.4,%
+2022,AR,Bradley,Health Outcomes,All teeth lost among adults aged >=65 years,26.6,%
+2023,AR,Ashley,Health Status,Frequent mental distress among adults,19.7,%
+2023,AR,Crawford,Disability,Vision disability among adults,5.7,%
+2023,AR,Union,Health Outcomes,Coronary heart disease among adults,8.7,%
+2022,AR,Lincoln,Prevention,Visited dentist or dental clinic in the past year among adults,44.5,%
+2023,AR,Howard,Health Outcomes,Obesity among adults,39.4,%
+2023,AR,Lafayette,Health Outcomes,Arthritis among adults,36.9,%
+2023,CA,Lassen,Disability,Hearing disability among adults,7.6,%
+2023,AL,Crenshaw,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,16.8,%
+2023,CA,Amador,Health Risk Behaviors,No leisure-time physical activity among adults,20.5,%
+2022,CA,Butte,Prevention,Colorectal cancer screening among adults aged 45–75 years,56.7,%
+2023,AR,Woodruff,Health Outcomes,Diagnosed diabetes among adults,18.3,%
+2023,AK,Copper River,Health Outcomes,Depression among adults,19.8,%
+2023,CA,Madera,Disability,Hearing disability among adults,7.3,%
+2023,AR,Greene,Disability,Any disability among adults,39.8,%
+2022,AR,Howard,Health Outcomes,All teeth lost among adults aged >=65 years,22.9,%
+2023,AK,Kodiak Island,Health Outcomes,Cancer (non-skin) or melanoma among adults,5.8,%
+2023,AR,Woodruff,Health Outcomes,Cancer (non-skin) or melanoma among adults,9.4,%
+2023,AR,Cross,Health-Related Social Needs,Received food stamps in the past 12 months among adults,17.0,%
+2023,AL,Limestone,Health Outcomes,Stroke among adults,3.4,%
+2023,AR,Sharp,Health Risk Behaviors,Binge drinking among adults,13.1,%
+2023,AL,Lauderdale,Health Outcomes,High cholesterol among adults who have ever been screened,35.0,%
+2023,CA,Placer,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,4.9,%
+2023,AZ,Cochise,Health Outcomes,Arthritis among adults,31.2,%
+2022,AR,Pulaski,Prevention,Colorectal cancer screening among adults aged 45–75 years,59.7,%
+2023,AR,Conway,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,11.2,%
+2023,AZ,Gila,Disability,Any disability among adults,38.5,%
+2023,AZ,Mohave,Disability,Any disability among adults,38.3,%
+2023,AR,Chicot,Health Outcomes,Stroke among adults,6.3,%
+2023,AL,Franklin,Health Outcomes,Current asthma among adults,10.0,%
+2023,AZ,Yuma,Prevention,Visits to doctor for routine checkup within the past year among adults,73.7,%
+2022,AL,Houston,Health Outcomes,All teeth lost among adults aged >=65 years,16.5,%
+2023,AR,Sharp,Disability,Mobility disability among adults,17.2,%
+2023,AL,Cleburne,Health-Related Social Needs,Lack of social and emotional support among adults,24.6,%
+2023,CA,Nevada,Health Risk Behaviors,Current cigarette smoking among adults,11.5,%
+2022,AK,Wrangell,Health Risk Behaviors,Short sleep duration among adults,36.8,%
+2023,CA,Colusa,Health Outcomes,Diagnosed diabetes among adults,13.4,%
+2023,AL,Cherokee,Health Outcomes,High cholesterol among adults who have ever been screened,45.9,%
+2022,AR,Lee,Prevention,Visited dentist or dental clinic in the past year among adults,40.6,%
+2022,AR,Clark,Health Risk Behaviors,Short sleep duration among adults,43.5,%
+2023,AL,Wilcox,Health-Related Social Needs,Received food stamps in the past 12 months among adults,33.7,%
+2023,AK,Haines,Health Status,Fair or poor self-rated health status among adults,15.5,%
+2022,AL,Morgan,Prevention,Colorectal cancer screening among adults aged 45–75 years,60.7,%
+2023,AR,Hempstead,Health Outcomes,Diagnosed diabetes among adults,13.6,%
+2022,AL,Chilton,Prevention,Visited dentist or dental clinic in the past year among adults,59.2,%
+2023,AL,Jackson,Health-Related Social Needs,Received food stamps in the past 12 months among adults,15.6,%
+2023,AR,Bradley,Disability,Hearing disability among adults,7.9,%
+2023,AR,Newton,Prevention,Cholesterol screening among adults,86.7,%
+2023,CA,Napa,Health Risk Behaviors,Current cigarette smoking among adults,10.4,%
+2023,AL,Perry,Disability,Independent living disability among adults,16.5,%
+2023,AZ,La Paz,Prevention,Cholesterol screening among adults,88.0,%
+2023,AR,Drew,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.8,%
+2023,AL,Lowndes,Health-Related Social Needs,Lack of social and emotional support among adults,32.6,%
+2023,CA,Contra Costa,Health-Related Social Needs,Food insecurity in the past 12 months among adults,13.2,%
+2023,AL,Marengo,Prevention,Cholesterol screening among adults,86.4,%
+2023,CA,Lassen,Health Risk Behaviors,Current cigarette smoking among adults,16.2,%
+2023,AR,Searcy,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.3,%
+2023,AL,Bibb,Health Outcomes,Current asthma among adults,10.4,%
+2023,AL,Butler,Disability,Self-care disability among adults,6.2,%
+2022,AL,Mobile,Prevention,Mammography use among women aged 50-74 years,77.4,%
+2023,AL,Choctaw,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,14.3,%
+2023,AL,Barbour,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,63.9,%
+2023,AR,Grant,Disability,Hearing disability among adults,8.6,%
+2023,AK,Wrangell,Health Status,Frequent mental distress among adults,14.8,%
+2023,CA,San Bernardino,Disability,Mobility disability among adults,14.1,%
+2023,AK,North Slope,Health Status,Frequent mental distress among adults,16.6,%
+2023,CA,Mendocino,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,75.4,%
+2023,CA,Orange,Disability,Any disability among adults,27.8,%
+2023,AL,Winston,Health Outcomes,Depression among adults,26.2,%
+2023,AK,Haines,Disability,Hearing disability among adults,7.1,%
+2023,AR,Cross,Health Outcomes,Coronary heart disease among adults,7.2,%
+2023,AZ,Greenlee,Health Status,Fair or poor self-rated health status among adults,19.7,%
+2023,AL,Franklin,Disability,Mobility disability among adults,17.8,%
+2023,AK,Yukon-Koyukuk,Health-Related Social Needs,Food insecurity in the past 12 months among adults,29.6,%
+2023,AL,Limestone,Health-Related Social Needs,Lack of social and emotional support among adults,23.8,%
+2023,AZ,Mohave,Health Risk Behaviors,Current cigarette smoking among adults,17.1,%
+2023,AR,Columbia,Health-Related Social Needs,Loneliness among adults,37.2,%
+2023,AR,Saline,Health Risk Behaviors,No leisure-time physical activity among adults,27.8,%
+2023,AR,Mississippi,Health Outcomes,Diagnosed diabetes among adults,13.4,%
+2023,CA,Amador,Health Status,Fair or poor self-rated health status among adults,20.5,%
+2022,AL,Dale,Prevention,Mammography use among women aged 50-74 years,73.8,%
+2022,CA,Lassen,Prevention,Mammography use among women aged 50-74 years,72.9,%
+2023,AR,Chicot,Disability,Independent living disability among adults,12.9,%
+2023,AL,Chilton,Health Outcomes,Current asthma among adults,10.0,%
+2023,CA,Contra Costa,Prevention,Visits to doctor for routine checkup within the past year among adults,70.2,%
+2023,AL,Dale,Prevention,Current lack of health insurance among adults aged 18-64 years,11.5,%
+2023,CA,Merced,Health Outcomes,Depression among adults,21.3,%
+2023,CA,Lake,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.8,%
+2023,CA,Imperial,Health Status,Frequent mental distress among adults,18.0,%
+2023,AR,Independence,Health Status,Frequent mental distress among adults,20.5,%
+2023,AL,Macon,Health Status,Frequent mental distress among adults,19.7,%
+2023,AK,Lake and Peninsula,Health-Related Social Needs,Loneliness among adults,35.5,%
+2023,AR,Searcy,Health Status,Frequent mental distress among adults,19.0,%
+2023,AR,Union,Health Outcomes,Chronic obstructive pulmonary disease among adults,8.0,%
+2023,AR,St. Francis,Health Outcomes,Current asthma among adults,11.0,%
+2023,AL,Sumter,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,16.1,%
+2022,AK,Northwest Arctic,Prevention,Colorectal cancer screening among adults aged 45–75 years,47.4,%
+2023,AL,Coffee,Disability,Any disability among adults,36.6,%
+2022,AL,Marshall,Prevention,Colorectal cancer screening among adults aged 45–75 years,59.6,%
+2023,CA,Madera,Health Outcomes,Depression among adults,21.9,%
+2023,AZ,Pinal,Health Outcomes,Obesity among adults,38.4,%
+2023,AR,Chicot,Health Risk Behaviors,Binge drinking among adults,13.5,%
+2023,AR,Faulkner,Health Outcomes,Current asthma among adults,10.2,%
+2022,AR,Drew,Prevention,Colorectal cancer screening among adults aged 45–75 years,57.1,%
+2023,AR,Lonoke,Health-Related Social Needs,Received food stamps in the past 12 months among adults,8.5,%
+2023,AR,Pike,Disability,Independent living disability among adults,10.6,%
+2023,AR,Mississippi,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.3,%
+2023,AL,Marion,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.6,%
+2023,AK,Juneau,Health Outcomes,Depression among adults,21.5,%
+2023,CA,Contra Costa,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,7.9,%
+2023,AL,Henry,Health Status,Frequent physical distress among adults,14.1,%
+2022,AR,Jackson,Health Risk Behaviors,Short sleep duration among adults,42.5,%
+2023,AK,Anchorage,Health-Related Social Needs,Loneliness among adults,33.9,%
+2022,AK,Anchorage,Health Outcomes,All teeth lost among adults aged >=65 years,12.3,%
+2023,AL,Greene,Disability,Any disability among adults,46.6,%
+2022,AK,Haines,Health Outcomes,All teeth lost among adults aged >=65 years,13.8,%
+2023,AR,Sebastian,Health Outcomes,Obesity among adults,36.4,%
+2023,AL,Bullock,Health-Related Social Needs,Food insecurity in the past 12 months among adults,42.9,%
+2023,AZ,Cochise,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.4,%
+2023,AL,Dale,Health Outcomes,Cancer (non-skin) or melanoma among adults,8.4,%
+2023,AL,Geneva,Prevention,Cholesterol screening among adults,81.5,%
+2023,AK,Kenai Peninsula,Health Outcomes,Diagnosed diabetes among adults,9.8,%
+2023,AL,Franklin,Health Risk Behaviors,Current cigarette smoking among adults,19.5,%
+2023,AL,Geneva,Prevention,Current lack of health insurance among adults aged 18-64 years,11.8,%
+2023,CA,Alameda,Health Outcomes,Coronary heart disease among adults,4.3,%
+2023,AL,Mobile,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,16.6,%
+2023,AR,Franklin,Health Outcomes,Obesity among adults,39.8,%
+2023,AZ,Coconino,Health Outcomes,Depression among adults,22.5,%
+2022,AR,Scott,Prevention,Mammography use among women aged 50-74 years,64.8,%
+2023,AR,Lee,Disability,Self-care disability among adults,7.8,%
+2023,CA,Monterey,Health-Related Social Needs,Loneliness among adults,35.7,%
+2023,AR,Arkansas,Health-Related Social Needs,Lack of social and emotional support among adults,29.4,%
+2023,AZ,Santa Cruz,Health Status,Fair or poor self-rated health status among adults,26.9,%
+2023,AL,Clarke,Health Status,Fair or poor self-rated health status among adults,26.7,%
+2023,AR,Marion,Disability,Self-care disability among adults,4.4,%
+2023,AL,Choctaw,Health Outcomes,Arthritis among adults,38.4,%
+2023,AL,Dallas,Disability,Mobility disability among adults,25.4,%
+2023,AL,Blount,Disability,Self-care disability among adults,4.5,%
+2023,AR,Logan,Health Outcomes,Chronic obstructive pulmonary disease among adults,10.4,%
+2023,AZ,Greenlee,Health Risk Behaviors,Current cigarette smoking among adults,11.6,%
+2023,AL,Geneva,Disability,Vision disability among adults,6.5,%
+2023,AL,Washington,Health Risk Behaviors,Binge drinking among adults,15.0,%
+2023,AK,Dillingham,Health-Related Social Needs,Received food stamps in the past 12 months among adults,20.0,%
+2023,AL,Lowndes,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,66.9,%
+2023,AR,Montgomery,Health-Related Social Needs,Loneliness among adults,32.7,%
+2023,AK,Fairbanks North Star,Health Outcomes,Current asthma among adults,10.0,%
+2023,AL,Monroe,Health Outcomes,Coronary heart disease among adults,7.1,%
+2023,AR,Columbia,Prevention,Current lack of health insurance among adults aged 18-64 years,11.6,%
+2023,AR,Drew,Health Outcomes,Diagnosed diabetes among adults,13.5,%
+2023,AK,Denali,Health Outcomes,Stroke among adults,2.9,%
+2023,AK,Lake and Peninsula,Prevention,Cholesterol screening among adults,75.7,%
+2023,AL,Baldwin,Health Outcomes,Stroke among adults,3.8,%
+2023,CA,Humboldt,Health Outcomes,Stroke among adults,3.2,%
+2023,AL,Geneva,Health Outcomes,Obesity among adults,42.3,%
+2022,AR,Phillips,Prevention,Colorectal cancer screening among adults aged 45–75 years,62.6,%
+2023,AK,Juneau,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,9.7,%
+2023,AK,Copper River,Disability,Vision disability among adults,5.0,%
+2023,AR,Logan,Disability,Mobility disability among adults,16.0,%
+2023,CA,Napa,Health Outcomes,Coronary heart disease among adults,6.5,%
+2023,AR,Lafayette,Disability,Vision disability among adults,10.2,%
+2023,CA,Glenn,Health Risk Behaviors,Binge drinking among adults,16.4,%
+2023,AK,Bristol Bay,Prevention,Cholesterol screening among adults,81.9,%
+2023,AL,Chilton,Health Status,Frequent mental distress among adults,19.3,%
+2023,AK,Kenai Peninsula,Health Outcomes,Stroke among adults,2.9,%
+2023,AR,Craighead,Disability,Vision disability among adults,5.7,%
+2022,AR,Carroll,Health Outcomes,All teeth lost among adults aged >=65 years,17.5,%
+2023,US,,Prevention,Current lack of health insurance among adults aged 18-64 years,11.0,%
+2023,CA,Los Angeles,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,10.3,%
+2022,AR,Johnson,Prevention,Mammography use among women aged 50-74 years,68.0,%
+2023,AL,Mobile,Health Outcomes,High blood pressure among adults,39.6,%
+2023,AR,Clay,Health Outcomes,Chronic obstructive pulmonary disease among adults,10.8,%
+2023,AK,Lake and Peninsula,Disability,Hearing disability among adults,10.1,%
+2023,AR,Van Buren,Disability,Self-care disability among adults,4.7,%
+2023,AK,Nome,Health Risk Behaviors,Current cigarette smoking among adults,28.7,%
+2023,AK,North Slope,Health Outcomes,Diagnosed diabetes among adults,10.8,%
+2023,AR,Pike,Disability,Hearing disability among adults,8.1,%
+2022,AR,White,Prevention,Colorectal cancer screening among adults aged 45–75 years,64.2,%
+2023,AZ,Pima,Health Outcomes,High blood pressure among adults,34.1,%
+2023,AR,Crawford,Health Status,Fair or poor self-rated health status among adults,23.7,%
+2022,AL,Clay,Prevention,Mammography use among women aged 50-74 years,73.0,%
+2023,AR,Clay,Health Status,Frequent physical distress among adults,15.9,%
+2022,CA,Inyo,Prevention,Colorectal cancer screening among adults aged 45–75 years,58.2,%
+2023,AR,Boone,Disability,Independent living disability among adults,9.3,%
+2023,AK,Kodiak Island,Disability,Independent living disability among adults,6.9,%
+2023,AK,Denali,Health Status,Fair or poor self-rated health status among adults,16.6,%
+2023,CA,Inyo,Disability,Hearing disability among adults,8.2,%
+2023,AZ,Maricopa,Health Outcomes,Coronary heart disease among adults,5.0,%
+2023,AL,Fayette,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.2,%
+2023,AR,Jefferson,Health Outcomes,Arthritis among adults,26.7,%
+2023,AL,St. Clair,Health Status,Fair or poor self-rated health status among adults,21.3,%
+2023,AK,Bethel,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,21.9,%
+2023,AR,Hempstead,Health-Related Social Needs,Food insecurity in the past 12 months among adults,24.4,%
+2023,AZ,Navajo,Disability,Vision disability among adults,8.5,%
+2023,AR,Izard,Disability,Cognitive disability among adults,19.6,%
+2023,CA,Placer,Disability,Mobility disability among adults,12.2,%
+2023,AR,Cleburne,Disability,Hearing disability among adults,8.1,%
+2023,AR,White,Health Outcomes,Diagnosed diabetes among adults,10.9,%
+2022,CA,Mariposa,Health Outcomes,All teeth lost among adults aged >=65 years,16.2,%
+2023,CA,Fresno,Disability,Vision disability among adults,7.4,%
+2022,AK,Haines,Prevention,Colorectal cancer screening among adults aged 45–75 years,54.2,%
+2023,AZ,Maricopa,Health Outcomes,Stroke among adults,2.7,%
+2023,AL,Chambers,Health Risk Behaviors,No leisure-time physical activity among adults,32.5,%
+2022,AL,Cullman,Prevention,Mammography use among women aged 50-74 years,74.5,%
+2023,CA,Calaveras,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,8.8,%
+2023,AZ,Yavapai,Health Outcomes,High blood pressure among adults,27.0,%
+2023,AR,Sevier,Health-Related Social Needs,Food insecurity in the past 12 months among adults,27.0,%
+2023,AL,Macon,Health Outcomes,High cholesterol among adults who have ever been screened,39.4,%
+2023,CA,Sacramento,Health-Related Social Needs,Loneliness among adults,38.9,%
+2023,CA,Los Angeles,Disability,Vision disability among adults,6.2,%
+2023,AR,Fulton,Prevention,Visits to doctor for routine checkup within the past year among adults,80.9,%
+2023,AR,Hot Spring,Disability,Any disability among adults,40.3,%
+2023,AL,Bullock,Health Outcomes,Stroke among adults,6.2,%
+2023,AR,Fulton,Health Risk Behaviors,Current cigarette smoking among adults,21.4,%
+2023,AL,Tallapoosa,Disability,Self-care disability among adults,5.1,%
+2023,AK,Ketchikan Gateway,Health Outcomes,High blood pressure among adults,34.8,%
+2023,AR,Marion,Health-Related Social Needs,Loneliness among adults,31.3,%
+2023,AR,Hot Spring,Health Outcomes,Chronic obstructive pulmonary disease among adults,8.3,%
+2023,AL,Shelby,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,76.3,%
+2023,AR,Lonoke,Disability,Self-care disability among adults,3.7,%
+2023,CA,Glenn,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,18.3,%
+2023,AK,Matanuska-Susitna,Health Outcomes,Stroke among adults,3.1,%
+2023,AK,Prince of Wales-Hyder,Health Risk Behaviors,Binge drinking among adults,18.0,%
+2023,AL,Calhoun,Health Risk Behaviors,Current cigarette smoking among adults,16.3,%
+2022,AL,Sumter,Health Outcomes,All teeth lost among adults aged >=65 years,29.8,%
+2023,AR,Woodruff,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,12.0,%
+2023,AZ,Pinal,Disability,Any disability among adults,31.7,%
+2023,AR,Arkansas,Disability,Independent living disability among adults,10.4,%
+2022,AZ,Santa Cruz,Prevention,Visited dentist or dental clinic in the past year among adults,53.0,%
+2023,AK,Sitka,Health-Related Social Needs,Lack of social and emotional support among adults,24.5,%
+2023,AK,Denali,Health Outcomes,Coronary heart disease among adults,5.6,%
+2023,AR,Benton,Health Outcomes,Chronic obstructive pulmonary disease among adults,5.6,%
+2023,AR,Franklin,Disability,Cognitive disability among adults,21.2,%
+2023,AL,Coffee,Health Outcomes,Coronary heart disease among adults,6.3,%
+2023,AR,Independence,Health Outcomes,High blood pressure among adults,37.2,%
+2022,AR,Miller,Prevention,Mammography use among women aged 50-74 years,68.8,%
+2023,AK,Kenai Peninsula,Health Outcomes,High cholesterol among adults who have ever been screened,31.4,%
+2022,AR,Baxter,Prevention,Colorectal cancer screening among adults aged 45–75 years,65.4,%
+2023,AL,Dallas,Health-Related Social Needs,Lack of social and emotional support among adults,30.3,%
+2023,AR,Madison,Health Risk Behaviors,Current cigarette smoking among adults,19.3,%
+2023,AK,Aleutians West,Disability,Mobility disability among adults,9.5,%
+2023,AR,Drew,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,13.1,%
+2023,AL,Dallas,Health Outcomes,Depression among adults,20.3,%
+2023,AR,Monroe,Health Outcomes,Current asthma among adults,11.3,%
+2023,AL,Tallapoosa,Health Outcomes,Diagnosed diabetes among adults,16.8,%
+2023,AR,Woodruff,Health Outcomes,Obesity among adults,39.2,%
+2023,AL,Walker,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.4,%
+2023,AR,Pulaski,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,76.4,%
+2023,AK,Hoonah-Angoon,Health-Related Social Needs,Loneliness among adults,31.1,%
+2023,AL,Autauga,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,78.2,%
+2023,CA,Mendocino,Health-Related Social Needs,Lack of social and emotional support among adults,25.4,%
+2022,AZ,Coconino,Health Outcomes,All teeth lost among adults aged >=65 years,10.3,%
+2023,CA,Inyo,Health Outcomes,Current asthma among adults,10.2,%
+2023,CA,Del Norte,Health Status,Frequent physical distress among adults,15.9,%
+2023,AZ,Apache,Disability,Mobility disability among adults,19.5,%
+2023,AR,Van Buren,Disability,Hearing disability among adults,12.2,%
+2023,AR,Miller,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,19.0,%
+2022,AL,Coosa,Prevention,Visited dentist or dental clinic in the past year among adults,51.3,%
+2022,AR,Izard,Prevention,Mammography use among women aged 50-74 years,67.0,%
+2023,AR,Lonoke,Disability,Mobility disability among adults,14.9,%
+2023,AL,Etowah,Health-Related Social Needs,Received food stamps in the past 12 months among adults,14.9,%
+2023,CA,Alpine,Prevention,Cholesterol screening among adults,88.7,%
+2023,AR,Craighead,Health Outcomes,Diagnosed diabetes among adults,11.6,%
+2023,CA,Calaveras,Disability,Cognitive disability among adults,14.4,%
+2022,AK,Southeast Fairbanks,Prevention,Visited dentist or dental clinic in the past year among adults,52.7,%
+2023,AR,Jefferson,Health Outcomes,Depression among adults,21.5,%
+2023,AL,Coosa,Disability,Any disability among adults,41.6,%
+2023,CA,San Benito,Health Outcomes,Coronary heart disease among adults,5.3,%
+2023,CA,Merced,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,11.6,%
+2023,AL,Talladega,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.4,%
+2023,AZ,Graham,Health-Related Social Needs,Received food stamps in the past 12 months among adults,15.1,%
+2023,AR,Searcy,Disability,Cognitive disability among adults,22.6,%
+2023,AR,Mississippi,Prevention,Cholesterol screening among adults,83.7,%
+2023,AL,Cleburne,Prevention,Current lack of health insurance among adults aged 18-64 years,10.1,%
+2023,AL,Clarke,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,12.6,%
+2023,AL,Lauderdale,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,8.3,%
+2022,CA,San Benito,Prevention,Visited dentist or dental clinic in the past year among adults,63.2,%
+2023,CA,Contra Costa,Health Outcomes,High blood pressure among adults,31.2,%
+2022,AR,Boone,Health Outcomes,All teeth lost among adults aged >=65 years,22.3,%
+2022,AZ,Yuma,Health Risk Behaviors,Short sleep duration among adults,34.0,%
+2023,CA,Kings,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,66.7,%
+2023,AR,Sharp,Prevention,Cholesterol screening among adults,80.9,%
+2023,AR,Madison,Disability,Self-care disability among adults,4.3,%
+2023,AL,Crenshaw,Health Outcomes,High blood pressure among adults,46.6,%
+2023,AL,Bullock,Prevention,Current lack of health insurance among adults aged 18-64 years,18.2,%
+2023,AL,Morgan,Health Outcomes,High blood pressure among adults,44.5,%
+2023,AL,Bibb,Health Outcomes,Diagnosed diabetes among adults,16.2,%
+2023,AK,Lake and Peninsula,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,70.7,%
+2023,AR,Cross,Health Risk Behaviors,Current cigarette smoking among adults,20.0,%
+2023,AL,Etowah,Health Outcomes,Cancer (non-skin) or melanoma among adults,9.1,%
+2023,AL,Fayette,Health Status,Fair or poor self-rated health status among adults,24.5,%
+2023,AR,Fulton,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,13.2,%
+2023,CA,Riverside,Health Risk Behaviors,No leisure-time physical activity among adults,27.3,%
+2023,AL,Dale,Health Outcomes,Coronary heart disease among adults,6.6,%
+2023,CA,Contra Costa,Health Outcomes,Current asthma among adults,9.4,%
+2023,AL,Marengo,Prevention,Current lack of health insurance among adults aged 18-64 years,11.5,%
+2023,AR,Madison,Disability,Cognitive disability among adults,19.8,%
+2023,AR,Grant,Health-Related Social Needs,Loneliness among adults,35.4,%
+2023,AR,Faulkner,Disability,Hearing disability among adults,7.2,%
+2023,CA,Merced,Prevention,Cholesterol screening among adults,80.5,%
+2023,AK,Aleutians East,Health Risk Behaviors,Binge drinking among adults,15.2,%
+2022,AL,DeKalb,Health Outcomes,All teeth lost among adults aged >=65 years,20.2,%
+2023,AR,Baxter,Health-Related Social Needs,Received food stamps in the past 12 months among adults,11.1,%
+2023,AR,Desha,Prevention,Cholesterol screening among adults,83.8,%
+2023,AL,Monroe,Health Status,Fair or poor self-rated health status among adults,28.7,%
+2022,AR,Randolph,Prevention,Visited dentist or dental clinic in the past year among adults,49.1,%
+2023,AL,Macon,Health Outcomes,Coronary heart disease among adults,8.2,%
+2023,CA,Nevada,Health Outcomes,High cholesterol among adults who have ever been screened,38.5,%
+2023,AK,Dillingham,Disability,Mobility disability among adults,17.1,%
+2023,AL,Talladega,Disability,Independent living disability among adults,10.8,%
+2023,AK,Wrangell,Prevention,Current lack of health insurance among adults aged 18-64 years,11.0,%
+2023,AR,Benton,Disability,Mobility disability among adults,12.4,%
+2023,AR,Sevier,Disability,Vision disability among adults,8.3,%
+2022,AR,Lonoke,Prevention,Mammography use among women aged 50-74 years,72.3,%
+2023,CA,Calaveras,Prevention,Current lack of health insurance among adults aged 18-64 years,7.9,%
+2023,AR,Crawford,Health Status,Frequent physical distress among adults,15.5,%
+2023,AR,Sebastian,Health Risk Behaviors,No leisure-time physical activity among adults,33.3,%
+2023,AK,Aleutians East,Health Outcomes,Coronary heart disease among adults,5.5,%
+2023,AK,Denali,Health Risk Behaviors,No leisure-time physical activity among adults,20.4,%
+2023,AL,Crenshaw,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,10.3,%
+2023,AL,Lauderdale,Health Outcomes,Obesity among adults,36.7,%
+2022,AR,Yell,Prevention,Mammography use among women aged 50-74 years,68.6,%
+2023,CA,Colusa,Disability,Independent living disability among adults,10.0,%
+2023,AR,Greene,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.7,%
+2023,AR,Jackson,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,76.7,%
+2023,AZ,Santa Cruz,Health-Related Social Needs,Loneliness among adults,30.3,%
+2023,AL,Blount,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,78.3,%
+2023,AL,Choctaw,Prevention,Visits to doctor for routine checkup within the past year among adults,79.6,%
+2023,AZ,Coconino,Health Risk Behaviors,Binge drinking among adults,16.4,%
+2023,AL,Baldwin,Health Outcomes,Cancer (non-skin) or melanoma among adults,10.2,%
+2022,AK,Chugach,Prevention,Mammography use among women aged 50-74 years,68.0,%
+2022,AK,Denali,Prevention,Colorectal cancer screening among adults aged 45–75 years,58.6,%
+2023,AL,Marengo,Prevention,Current lack of health insurance among adults aged 18-64 years,12.1,%
+2023,AK,Ketchikan Gateway,Health Risk Behaviors,Current cigarette smoking among adults,16.0,%
+2023,CA,Colusa,Health Outcomes,Cancer (non-skin) or melanoma among adults,6.6,%
+2022,AR,Hempstead,Prevention,Visited dentist or dental clinic in the past year among adults,50.7,%
+2023,AK,North Slope,Prevention,Current lack of health insurance among adults aged 18-64 years,11.2,%
+2023,AK,Kusilvak,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,24.9,%
+2023,AR,Marion,Health Outcomes,Coronary heart disease among adults,7.0,%
+2023,AZ,Maricopa,Prevention,Visits to doctor for routine checkup within the past year among adults,72.0,%
+2022,AR,Hempstead,Health Risk Behaviors,Short sleep duration among adults,39.8,%
+2023,AL,Cleburne,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.5,%
+2023,AR,Marion,Health Outcomes,Stroke among adults,5.4,%
+2023,CA,Inyo,Health-Related Social Needs,Loneliness among adults,35.3,%
+2023,AL,Mobile,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,10.6,%
+2023,AZ,Yuma,Health Status,Frequent mental distress among adults,15.3,%
+2023,AZ,Apache,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,23.5,%
+2023,AR,Miller,Disability,Any disability among adults,41.1,%
+2023,AK,Denali,Disability,Mobility disability among adults,10.1,%
+2023,CA,Humboldt,Health Status,Frequent mental distress among adults,19.7,%
+2023,CA,Alameda,Health Risk Behaviors,Current cigarette smoking among adults,9.3,%
+2023,AL,St. Clair,Health Outcomes,Stroke among adults,3.7,%
+2023,AL,Bullock,Health Status,Fair or poor self-rated health status among adults,37.8,%
+2023,AR,Hempstead,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,13.3,%
+2023,AR,Carroll,Disability,Cognitive disability among adults,19.9,%
+2023,AL,Monroe,Health-Related Social Needs,Lack of social and emotional support among adults,29.2,%
+2023,CA,Merced,Prevention,Current lack of health insurance among adults aged 18-64 years,18.3,%
+2023,AR,Montgomery,Disability,Self-care disability among adults,4.5,%
+2023,AZ,Apache,Health Outcomes,High cholesterol among adults who have ever been screened,33.8,%
+2023,AL,Clay,Health-Related Social Needs,Food insecurity in the past 12 months among adults,20.2,%
+2023,AL,Etowah,Disability,Self-care disability among adults,4.5,%
+2023,AL,Geneva,Health Outcomes,Diagnosed diabetes among adults,16.4,%
+2022,AL,Butler,Prevention,Colorectal cancer screening among adults aged 45–75 years,65.5,%
+2023,AL,Jefferson,Prevention,Visits to doctor for routine checkup within the past year among adults,81.2,%
+2023,AR,Drew,Health Outcomes,Stroke among adults,4.0,%
+2023,AL,Chambers,Health Status,Fair or poor self-rated health status among adults,27.6,%
+2023,AL,Pickens,Health Risk Behaviors,No leisure-time physical activity among adults,34.8,%
+2023,AR,Lawrence,Health Outcomes,Depression among adults,27.3,%
+2023,AK,Ketchikan Gateway,Prevention,Visits to doctor for routine checkup within the past year among adults,69.5,%
+2023,AK,Skagway,Health-Related Social Needs,Lack of social and emotional support among adults,24.2,%
+2022,AR,Craighead,Prevention,Mammography use among women aged 50-74 years,66.6,%
+2023,AL,Lamar,Health Outcomes,Diagnosed diabetes among adults,16.7,%
+2023,AZ,Apache,Health Outcomes,Obesity among adults,36.0,%
+2023,CA,El Dorado,Prevention,Cholesterol screening among adults,88.9,%
+2023,AZ,Yavapai,Health Outcomes,Arthritis among adults,22.5,%
+2023,CA,Contra Costa,Health Risk Behaviors,Current cigarette smoking among adults,9.3,%
+2023,AR,Woodruff,Health Outcomes,Coronary heart disease among adults,7.4,%
+2023,AZ,Maricopa,Disability,Independent living disability among adults,7.0,%
+2023,AR,Lonoke,Health Risk Behaviors,Current cigarette smoking among adults,16.0,%
+2023,CA,Glenn,Prevention,Cholesterol screening among adults,82.2,%
+2023,AR,Calhoun,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.7,%
+2022,CA,Alameda,Prevention,Mammography use among women aged 50-74 years,74.5,%
+2023,AL,Dallas,Health Risk Behaviors,Binge drinking among adults,10.1,%
+2023,AL,Choctaw,Disability,Hearing disability among adults,7.4,%
+2023,AL,Escambia,Disability,Independent living disability among adults,13.5,%
+2023,AR,Columbia,Disability,Self-care disability among adults,5.1,%
+2022,AK,Southeast Fairbanks,Health Outcomes,All teeth lost among adults aged >=65 years,12.6,%
+2023,AR,Clark,Health Outcomes,Depression among adults,26.0,%
+2023,AR,Perry,Disability,Hearing disability among adults,10.2,%
+2023,AZ,Gila,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,15.9,%
+2023,CA,Alameda,Health Outcomes,Stroke among adults,2.5,%
+2023,AL,Elmore,Health-Related Social Needs,Lack of social and emotional support among adults,26.3,%
+2023,AZ,Cochise,Disability,Cognitive disability among adults,14.9,%
+2023,AK,Fairbanks North Star,Prevention,Visits to doctor for routine checkup within the past year among adults,66.8,%
+2023,AR,Marion,Health Status,Fair or poor self-rated health status among adults,27.7,%
+2023,AL,Jackson,Health Status,Frequent mental distress among adults,18.5,%
+2023,AZ,Cochise,Health Outcomes,Coronary heart disease among adults,5.8,%
+2022,AL,Coosa,Health Outcomes,All teeth lost among adults aged >=65 years,13.7,%
+2023,AL,Walker,Disability,Cognitive disability among adults,19.0,%
+2023,CA,Calaveras,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,10.6,%
+2023,AL,Colbert,Health Outcomes,High cholesterol among adults who have ever been screened,42.7,%
+2023,CA,Marin,Disability,Self-care disability among adults,3.0,%
+2023,AL,Autauga,Disability,Any disability among adults,32.4,%
+2023,AL,Elmore,Health Outcomes,Chronic obstructive pulmonary disease among adults,7.5,%
+2023,AR,Lee,Health Outcomes,Coronary heart disease among adults,10.1,%
+2023,AL,Washington,Health Outcomes,Chronic obstructive pulmonary disease among adults,7.7,%
+2023,CA,Nevada,Health Outcomes,Depression among adults,23.0,%
+2023,AR,Conway,Health-Related Social Needs,Food insecurity in the past 12 months among adults,20.5,%
+2023,AK,North Slope,Health Status,Fair or poor self-rated health status among adults,20.6,%
+2023,AK,Matanuska-Susitna,Health Outcomes,Obesity among adults,37.5,%
+2023,AR,Greene,Health Risk Behaviors,No leisure-time physical activity among adults,35.0,%
+2023,CA,Alpine,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,5.3,%
+2023,AR,Yell,Prevention,Visits to doctor for routine checkup within the past year among adults,77.7,%
+2023,AR,Logan,Health Outcomes,Coronary heart disease among adults,9.0,%
+2023,AR,Lee,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,26.1,%
+2023,AL,Lee,Health-Related Social Needs,Lack of social and emotional support among adults,23.5,%
+2023,AR,Newton,Health Outcomes,Diagnosed diabetes among adults,10.9,%
+2023,AR,Sharp,Disability,Self-care disability among adults,5.7,%
+2023,AR,Crittenden,Health Outcomes,High cholesterol among adults who have ever been screened,39.2,%
+2023,AZ,Coconino,Disability,Hearing disability among adults,7.4,%
+2023,AL,Walker,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,12.5,%
+2023,AR,Miller,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,62.6,%
+2023,AL,Morgan,Health Status,Frequent physical distress among adults,14.8,%
+2023,AK,Prince of Wales-Hyder,Disability,Vision disability among adults,7.2,%
+2023,CA,Inyo,Health Outcomes,High blood pressure among adults,35.1,%
+2023,AR,Izard,Disability,Any disability among adults,41.5,%
+2023,AK,Matanuska-Susitna,Health-Related Social Needs,Food insecurity in the past 12 months among adults,13.0,%
+2022,AK,Skagway,Health Outcomes,All teeth lost among adults aged >=65 years,14.3,%
+2023,AL,Randolph,Disability,Cognitive disability among adults,17.2,%
+2023,AZ,Pinal,Health Outcomes,Arthritis among adults,23.4,%
+2023,AZ,Maricopa,Disability,Any disability among adults,29.2,%
+2023,AK,Northwest Arctic,Disability,Hearing disability among adults,10.7,%
+2023,AR,Conway,Health Outcomes,Stroke among adults,4.8,%
+2023,AR,Polk,Prevention,Current lack of health insurance among adults aged 18-64 years,11.7,%
+2023,AK,Sitka,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,10.7,%
+2023,AR,Crittenden,Health Outcomes,Depression among adults,24.4,%
+2023,AK,Bristol Bay,Health Status,Frequent mental distress among adults,15.3,%
+2023,AL,Pickens,Prevention,Cholesterol screening among adults,82.4,%
+2023,AK,Bethel,Health-Related Social Needs,Food insecurity in the past 12 months among adults,37.6,%
+2023,AR,Nevada,Health Outcomes,High cholesterol among adults who have ever been screened,34.6,%
+2023,AL,Calhoun,Health Status,Fair or poor self-rated health status among adults,24.4,%
+2023,AR,Prairie,Health Outcomes,Diagnosed diabetes among adults,15.1,%
+2023,AR,Newton,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.2,%
+2023,AR,Yell,Health Outcomes,Depression among adults,26.1,%
+2023,AR,Poinsett,Disability,Any disability among adults,41.2,%
+2023,AR,Sharp,Health Outcomes,Coronary heart disease among adults,10.8,%
+2023,AL,Chambers,Health Outcomes,Cancer (non-skin) or melanoma among adults,8.4,%
+2023,AL,Monroe,Health Outcomes,Stroke among adults,4.5,%
+2023,AL,Coffee,Health Outcomes,Cancer (non-skin) or melanoma among adults,8.4,%
+2023,AL,Dale,Health Status,Fair or poor self-rated health status among adults,26.0,%
+2023,AL,Baldwin,Health Risk Behaviors,No leisure-time physical activity among adults,23.7,%
+2023,AR,Faulkner,Health Outcomes,Diagnosed diabetes among adults,10.8,%
+2023,AR,Searcy,Health Outcomes,Stroke among adults,4.0,%
+2023,AL,Barbour,Health-Related Social Needs,Lack of social and emotional support among adults,30.6,%
+2023,CA,Kern,Disability,Self-care disability among adults,5.2,%
+2023,AK,Lake and Peninsula,Disability,Self-care disability among adults,5.3,%
+2023,AR,Ashley,Health Status,Fair or poor self-rated health status among adults,29.2,%
+2023,AR,Union,Health Outcomes,Obesity among adults,39.4,%
+2023,AL,Escambia,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,15.4,%
+2023,AL,Greene,Disability,Mobility disability among adults,31.4,%
+2023,AR,Boone,Health Outcomes,Current asthma among adults,10.4,%
+2023,AK,Fairbanks North Star,Health Outcomes,Arthritis among adults,19.9,%
+2023,AR,Benton,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,7.5,%
+2023,AR,Garland,Health Outcomes,Arthritis among adults,25.8,%
+2023,AR,Johnson,Health-Related Social Needs,Received food stamps in the past 12 months among adults,13.3,%
+2023,AR,Woodruff,Prevention,Current lack of health insurance among adults aged 18-64 years,12.6,%
+2023,AK,Kenai Peninsula,Health Outcomes,Coronary heart disease among adults,5.5,%
+2023,AR,Garland,Health Status,Frequent physical distress among adults,14.9,%
+2022,AL,Clarke,Prevention,Visited dentist or dental clinic in the past year among adults,50.7,%
+2023,AL,Marshall,Prevention,Cholesterol screening among adults,84.7,%
+2022,AR,Washington,Prevention,Visited dentist or dental clinic in the past year among adults,56.4,%
+2023,AK,Sitka,Prevention,Visits to doctor for routine checkup within the past year among adults,66.5,%
+2023,AR,Ouachita,Prevention,Current lack of health insurance among adults aged 18-64 years,11.3,%
+2023,CA,Lassen,Disability,Any disability among adults,36.5,%
+2023,AK,Nome,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,23.2,%
+2023,AR,Baxter,Disability,Independent living disability among adults,10.1,%
+2023,AL,Perry,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,24.0,%
+2023,AL,Houston,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,79.6,%
+2023,AL,Marshall,Health Outcomes,Obesity among adults,37.6,%
+2023,AL,Coosa,Health Outcomes,Arthritis among adults,36.9,%
+2023,AR,Washington,Health Outcomes,Depression among adults,24.6,%
+2023,AK,Dillingham,Health Risk Behaviors,Current cigarette smoking among adults,25.7,%
+2023,AK,Bethel,Prevention,Visits to doctor for routine checkup within the past year among adults,63.6,%
+2023,AR,Yell,Health-Related Social Needs,Lack of social and emotional support among adults,26.9,%
+2023,AR,Cleburne,Health Risk Behaviors,Binge drinking among adults,13.6,%
+2022,AZ,Pinal,Health Outcomes,All teeth lost among adults aged >=65 years,19.3,%
+2023,AL,Marion,Health Outcomes,Arthritis among adults,34.8,%
+2023,AR,Franklin,Health Outcomes,High cholesterol among adults who have ever been screened,34.5,%
+2023,AR,Ouachita,Health Risk Behaviors,No leisure-time physical activity among adults,35.8,%
+2023,AL,Hale,Health Risk Behaviors,Binge drinking among adults,11.2,%
+2023,AR,Scott,Health-Related Social Needs,Lack of social and emotional support among adults,28.7,%
+2023,AK,Kodiak Island,Health-Related Social Needs,Loneliness among adults,34.0,%
+2023,AL,Randolph,Disability,Any disability among adults,37.2,%
+2023,AR,Calhoun,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,9.5,%
+2023,AL,Marion,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,10.3,%
+2023,AL,Geneva,Health Outcomes,Coronary heart disease among adults,7.0,%
+2023,AR,Miller,Health Risk Behaviors,Current cigarette smoking among adults,19.1,%
+2023,AL,Lawrence,Health Outcomes,Depression among adults,24.9,%
+2023,AL,Fayette,Health Status,Frequent mental distress among adults,20.2,%
+2023,AR,Phillips,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,22.8,%
+2023,AR,Perry,Disability,Any disability among adults,40.4,%
+2023,CA,Kern,Health Outcomes,Chronic obstructive pulmonary disease among adults,6.4,%
+2023,AZ,Gila,Health Outcomes,Arthritis among adults,35.2,%
+2023,CA,Del Norte,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.9,%
+2022,CA,Orange,Health Outcomes,All teeth lost among adults aged >=65 years,8.3,%
+2023,CA,Napa,Disability,Cognitive disability among adults,14.3,%
+2023,AL,Wilcox,Health Outcomes,Current asthma among adults,11.9,%
+2023,AR,Cross,Disability,Mobility disability among adults,21.3,%
+2023,CA,Amador,Health Status,Frequent physical distress among adults,12.6,%
+2023,AK,Matanuska-Susitna,Health Outcomes,Arthritis among adults,24.5,%
+2023,AK,Wrangell,Health-Related Social Needs,Received food stamps in the past 12 months among adults,11.2,%
+2023,CA,Monterey,Health Outcomes,Stroke among adults,3.4,%
+2023,AK,Kusilvak,Health Outcomes,Chronic obstructive pulmonary disease among adults,11.6,%
+2023,AR,Phillips,Health Status,Frequent mental distress among adults,22.4,%
+2023,AR,Izard,Health Outcomes,Arthritis among adults,27.4,%
+2023,AR,Lawrence,Health-Related Social Needs,Received food stamps in the past 12 months among adults,13.3,%
+2022,AL,Tuscaloosa,Prevention,Visited dentist or dental clinic in the past year among adults,55.4,%
+2023,AK,Anchorage,Disability,Hearing disability among adults,6.9,%
+2023,AR,Lee,Health Risk Behaviors,Binge drinking among adults,12.6,%
+2023,CA,Napa,Disability,Vision disability among adults,5.1,%
+2023,AZ,Cochise,Health-Related Social Needs,Food insecurity in the past 12 months among adults,16.7,%
+2023,CA,Mariposa,Disability,Hearing disability among adults,6.2,%
+2023,AL,Fayette,Health Outcomes,Stroke among adults,3.8,%
+2023,AR,Independence,Disability,Independent living disability among adults,10.3,%
+2023,AR,Carroll,Health Risk Behaviors,Binge drinking among adults,13.5,%
+2022,AL,Jackson,Prevention,Visited dentist or dental clinic in the past year among adults,52.8,%
+2023,AK,Chugach,Health Outcomes,Arthritis among adults,24.4,%
+2022,CA,Madera,Prevention,Mammography use among women aged 50-74 years,73.0,%
+2023,AR,Desha,Health Outcomes,Diagnosed diabetes among adults,17.1,%
+2023,CA,Mendocino,Health Outcomes,Depression among adults,23.0,%
+2023,AL,DeKalb,Disability,Mobility disability among adults,20.3,%
+2022,AL,Macon,Prevention,Visited dentist or dental clinic in the past year among adults,47.6,%
+2023,AK,Juneau,Disability,Mobility disability among adults,10.0,%
+2023,AR,Lincoln,Health Outcomes,Current asthma among adults,9.8,%
+2023,CA,Butte,Disability,Any disability among adults,32.6,%
+2023,AL,Conecuh,Health Outcomes,Arthritis among adults,30.0,%
+2023,AL,Tallapoosa,Health-Related Social Needs,Received food stamps in the past 12 months among adults,14.0,%
+2023,AZ,Pima,Disability,Self-care disability among adults,3.5,%
+2023,AR,Logan,Health Risk Behaviors,No leisure-time physical activity among adults,33.8,%
+2023,AR,Desha,Health-Related Social Needs,Food insecurity in the past 12 months among adults,36.6,%
+2023,AR,Perry,Health-Related Social Needs,Loneliness among adults,34.5,%
+2022,AR,Little River,Prevention,Mammography use among women aged 50-74 years,71.3,%
+2023,AL,Henry,Health Risk Behaviors,No leisure-time physical activity among adults,31.4,%
+2023,AL,Cullman,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,11.1,%
+2022,AR,St. Francis,Health Risk Behaviors,Short sleep duration among adults,47.3,%
+2023,AL,Hale,Prevention,Cholesterol screening among adults,83.3,%
+2023,AL,Limestone,Health Risk Behaviors,No leisure-time physical activity among adults,24.5,%
+2022,AR,Boone,Prevention,Colorectal cancer screening among adults aged 45–75 years,56.7,%
+2022,AK,Fairbanks North Star,Prevention,Mammography use among women aged 50-74 years,58.4,%
+2023,AR,Crittenden,Disability,Vision disability among adults,8.2,%
+2023,AL,Lowndes,Disability,Self-care disability among adults,7.9,%
+2023,CA,Fresno,Health Outcomes,Cancer (non-skin) or melanoma among adults,5.7,%
+2023,AL,Washington,Health Status,Fair or poor self-rated health status among adults,26.1,%
+2023,AR,Bradley,Prevention,Visits to doctor for routine checkup within the past year among adults,80.7,%
+2023,CA,Modoc,Health-Related Social Needs,Loneliness among adults,33.1,%
+2023,CA,Kings,Disability,Self-care disability among adults,5.0,%
+2022,AR,Greene,Health Outcomes,All teeth lost among adults aged >=65 years,22.5,%
+2023,AR,Craighead,Health-Related Social Needs,Lack of social and emotional support among adults,27.5,%
+2023,CA,Fresno,Disability,Any disability among adults,36.1,%
+2023,AZ,Maricopa,Health Outcomes,Arthritis among adults,23.5,%
+2022,CA,Alpine,Prevention,Colorectal cancer screening among adults aged 45–75 years,59.8,%
+2023,AL,Covington,Prevention,Cholesterol screening among adults,85.7,%
+2023,AR,Hot Spring,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,15.6,%
+2023,AK,Northwest Arctic,Health Outcomes,Current asthma among adults,13.3,%
+2022,AK,Ketchikan Gateway,Prevention,Mammography use among women aged 50-74 years,67.0,%
+2023,AR,Drew,Health Status,Frequent mental distress among adults,19.8,%
+2023,AR,Dallas,Health Outcomes,High blood pressure among adults,41.3,%
+2023,AR,Clay,Health Status,Frequent mental distress among adults,21.1,%
+2023,CA,Madera,Health Outcomes,High blood pressure among adults,33.2,%
+2023,AL,Lee,Health Risk Behaviors,Binge drinking among adults,15.3,%
+2023,AK,Fairbanks North Star,Health-Related Social Needs,Food insecurity in the past 12 months among adults,11.2,%
+2023,AK,Lake and Peninsula,Health Outcomes,Current asthma among adults,12.5,%
+2023,AL,Limestone,Prevention,Visits to doctor for routine checkup within the past year among adults,78.0,%
+2023,AR,Garland,Disability,Independent living disability among adults,9.9,%
+2023,AL,Choctaw,Disability,Any disability among adults,44.3,%
+2023,CA,Riverside,Health-Related Social Needs,Received food stamps in the past 12 months among adults,17.3,%
+2022,AR,Newton,Prevention,Colorectal cancer screening among adults aged 45–75 years,63.3,%
+2023,AL,Geneva,Health Outcomes,High cholesterol among adults who have ever been screened,36.2,%
+2023,AL,Lamar,Prevention,Current lack of health insurance among adults aged 18-64 years,10.9,%
+2023,AR,Franklin,Health Outcomes,Diagnosed diabetes among adults,14.6,%
+2023,AR,Benton,Disability,Hearing disability among adults,7.1,%
+2022,CA,Marin,Prevention,Mammography use among women aged 50-74 years,78.3,%
+2023,AL,Pickens,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,14.5,%
+2023,AR,Clark,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,62.3,%
+2023,AL,Lauderdale,Health Outcomes,Diagnosed diabetes among adults,11.0,%
+2023,AK,Prince of Wales-Hyder,Health Status,Fair or poor self-rated health status among adults,25.5,%
+2023,AZ,Santa Cruz,Health Outcomes,Cancer (non-skin) or melanoma among adults,5.4,%
+2023,AR,Lee,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,64.1,%
+2023,AR,Chicot,Health Outcomes,Chronic obstructive pulmonary disease among adults,11.5,%
+2023,AR,Ashley,Prevention,Current lack of health insurance among adults aged 18-64 years,12.9,%
+2023,CA,Plumas,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,12.7,%
+2023,AR,Crawford,Health Outcomes,Cancer (non-skin) or melanoma among adults,7.1,%
+2022,AL,Jackson,Health Risk Behaviors,Short sleep duration among adults,42.1,%
+2023,AL,Greene,Health Outcomes,Depression among adults,20.4,%
+2022,AK,Juneau,Prevention,Mammography use among women aged 50-74 years,68.8,%
+2023,AR,Arkansas,Health Risk Behaviors,Binge drinking among adults,15.5,%
+2023,AR,Union,Health Outcomes,Cancer (non-skin) or melanoma among adults,8.2,%
+2023,AL,Wilcox,Prevention,Visits to doctor for routine checkup within the past year among adults,81.1,%
+2023,CA,Fresno,Health Risk Behaviors,No leisure-time physical activity among adults,30.9,%
+2023,AL,Colbert,Health-Related Social Needs,Received food stamps in the past 12 months among adults,13.6,%
+2023,AR,Logan,Disability,Independent living disability among adults,10.3,%
+2022,CA,Monterey,Prevention,Colorectal cancer screening among adults aged 45–75 years,53.3,%
+2023,AZ,Pima,Health Status,Fair or poor self-rated health status among adults,19.9,%
+2023,AL,Lowndes,Disability,Cognitive disability among adults,20.3,%
+2023,AR,Clay,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,9.0,%
+2023,AR,Ouachita,Health-Related Social Needs,Food insecurity in the past 12 months among adults,25.6,%
+2023,AL,Colbert,Disability,Mobility disability among adults,18.1,%
+2022,AR,Hempstead,Health Risk Behaviors,Short sleep duration among adults,41.3,%
+2023,AR,Washington,Health Status,Frequent physical distress among adults,13.9,%
+2023,AL,Barbour,Disability,Self-care disability among adults,7.1,%
+2023,AK,Matanuska-Susitna,Disability,Cognitive disability among adults,14.7,%
+2023,AZ,Maricopa,Disability,Mobility disability among adults,11.5,%
+2023,AL,Jackson,Health Status,Frequent physical distress among adults,15.5,%
+2023,AL,Coosa,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,17.1,%
+2023,AL,Dallas,Prevention,Cholesterol screening among adults,83.5,%
+2023,AL,St. Clair,Health Risk Behaviors,No leisure-time physical activity among adults,26.3,%
+2023,AL,Mobile,Health-Related Social Needs,Food insecurity in the past 12 months among adults,22.3,%
+2022,AK,Kusilvak,Health Outcomes,All teeth lost among adults aged >=65 years,37.2,%
+2023,AL,Etowah,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,78.6,%
+2022,AR,Madison,Prevention,Mammography use among women aged 50-74 years,66.0,%
+2023,AR,Woodruff,Health Risk Behaviors,No leisure-time physical activity among adults,37.7,%
+2022,CA,Inyo,Health Outcomes,All teeth lost among adults aged >=65 years,9.2,%
+2023,AZ,Gila,Health-Related Social Needs,Food insecurity in the past 12 months among adults,17.5,%
+2023,AL,Sumter,Health Outcomes,High blood pressure among adults,49.1,%
+2023,AR,Desha,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,21.7,%
+2022,AR,Polk,Prevention,Visited dentist or dental clinic in the past year among adults,52.8,%
+2022,CA,El Dorado,Prevention,Colorectal cancer screening among adults aged 45–75 years,59.9,%
+2023,AR,Polk,Health Risk Behaviors,Binge drinking among adults,16.6,%
+2023,AR,Nevada,Health Outcomes,Stroke among adults,4.4,%
+2023,AK,Chugach,Health-Related Social Needs,Food insecurity in the past 12 months among adults,11.6,%
+2023,AK,Kusilvak,Disability,Vision disability among adults,13.1,%
+2022,AL,Marshall,Health Risk Behaviors,Short sleep duration among adults,39.1,%
+2022,AR,Pope,Health Risk Behaviors,Short sleep duration among adults,36.5,%
+2022,AL,Lamar,Prevention,Mammography use among women aged 50-74 years,77.9,%
+2022,AR,Van Buren,Prevention,Colorectal cancer screening among adults aged 45–75 years,63.1,%
+2023,AR,Cleveland,Health Status,Frequent mental distress among adults,20.7,%
+2023,CA,Inyo,Health Outcomes,Chronic obstructive pulmonary disease among adults,5.2,%
+2023,AR,Desha,Health Outcomes,Obesity among adults,46.6,%
+2022,CA,Marin,Health Risk Behaviors,Short sleep duration among adults,30.0,%
+2023,AR,Newton,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,11.1,%
+2023,AR,Clay,Disability,Vision disability among adults,6.5,%
+2023,CA,Butte,Health Outcomes,Current asthma among adults,10.5,%
+2022,AR,Craighead,Prevention,Colorectal cancer screening among adults aged 45–75 years,60.8,%
+2023,CA,Alameda,Health Risk Behaviors,Binge drinking among adults,16.3,%
+2023,AL,Chambers,Disability,Cognitive disability among adults,18.8,%
+2023,AR,Lonoke,Health Outcomes,Coronary heart disease among adults,5.8,%
+2022,AR,Poinsett,Prevention,Colorectal cancer screening among adults aged 45–75 years,61.4,%
+2023,AR,Cleburne,Disability,Vision disability among adults,6.5,%
+2023,CA,Kings,Health-Related Social Needs,Received food stamps in the past 12 months among adults,24.3,%
+2023,AZ,Pima,Health-Related Social Needs,Loneliness among adults,32.9,%
+2023,AL,Clarke,Health Outcomes,Diagnosed diabetes among adults,14.9,%
+2023,AK,Anchorage,Health Outcomes,Chronic obstructive pulmonary disease among adults,5.2,%
+2023,CA,Fresno,Health Status,Frequent physical distress among adults,14.9,%
+2023,AK,Yakutat,Health Outcomes,High cholesterol among adults who have ever been screened,38.0,%
+2023,AL,Hale,Health Outcomes,Depression among adults,22.3,%
+2023,AK,Juneau,Health-Related Social Needs,Received food stamps in the past 12 months among adults,7.7,%
+2023,AL,Coosa,Health Outcomes,Chronic obstructive pulmonary disease among adults,10.6,%
+2023,AL,Hale,Health-Related Social Needs,Lack of social and emotional support among adults,28.9,%
+2023,CA,Merced,Health Status,Frequent mental distress among adults,19.0,%
+2023,AL,DeKalb,Health Outcomes,Coronary heart disease among adults,8.9,%
+2023,AR,Dallas,Health Outcomes,Arthritis among adults,33.5,%
+2022,AR,Pike,Health Outcomes,All teeth lost among adults aged >=65 years,15.7,%
+2023,AL,Marshall,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.3,%
+2023,AK,Bristol Bay,Health Outcomes,Diagnosed diabetes among adults,9.1,%
+2023,AR,Chicot,Health-Related Social Needs,Lack of social and emotional support among adults,34.1,%
+2023,AR,Washington,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,56.4,%
+2023,AL,Walker,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,10.1,%
+2023,AZ,Greenlee,Health Outcomes,Stroke among adults,2.7,%
+2023,AL,Tallapoosa,Prevention,Current lack of health insurance among adults aged 18-64 years,10.0,%
+2023,AK,Hoonah-Angoon,Health Outcomes,Arthritis among adults,23.0,%
+2023,AR,Phillips,Health Outcomes,Arthritis among adults,29.3,%
+2023,AR,Randolph,Health Outcomes,High cholesterol among adults who have ever been screened,40.2,%
+2023,AR,Mississippi,Health-Related Social Needs,Loneliness among adults,36.2,%
+2023,AK,Sitka,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,70.5,%
+2023,CA,Orange,Health Outcomes,Obesity among adults,23.9,%
+2023,AK,Kusilvak,Health Risk Behaviors,No leisure-time physical activity among adults,37.0,%
+2023,AR,Prairie,Health Risk Behaviors,Current cigarette smoking among adults,18.1,%
+2023,AR,Grant,Health Outcomes,Arthritis among adults,29.5,%
+2023,US,,Health Risk Behaviors,Binge drinking among adults,16.6,%
+2023,AL,Crenshaw,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,15.1,%
+2023,AR,Benton,Health Risk Behaviors,No leisure-time physical activity among adults,25.4,%
+2023,AK,Petersburg,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,8.1,%
+2023,AR,Faulkner,Health-Related Social Needs,Lack of social and emotional support among adults,24.8,%
+2023,CA,Modoc,Health Outcomes,Current asthma among adults,10.8,%
+2023,AR,Craighead,Health Risk Behaviors,Binge drinking among adults,15.3,%
+2023,AR,Pike,Health Outcomes,Obesity among adults,38.3,%
+2023,AZ,Maricopa,Health Outcomes,High cholesterol among adults who have ever been screened,33.0,%
+2023,AL,Lamar,Disability,Self-care disability among adults,5.6,%
+2023,AK,Hoonah-Angoon,Prevention,Cholesterol screening among adults,83.7,%
+2023,AR,Craighead,Health Outcomes,Stroke among adults,3.5,%
+2023,AK,Northwest Arctic,Disability,Vision disability among adults,9.3,%
+2023,CA,Mono,Health Outcomes,Obesity among adults,31.2,%
+2023,AZ,Greenlee,Health Outcomes,Depression among adults,19.3,%
+2023,CA,Mendocino,Disability,Mobility disability among adults,18.2,%
+2023,AL,St. Clair,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,8.1,%
+2023,AK,Lake and Peninsula,Health Outcomes,Depression among adults,20.0,%
+2022,AR,Bradley,Prevention,Visited dentist or dental clinic in the past year among adults,46.1,%
+2023,AL,Russell,Health Status,Fair or poor self-rated health status among adults,26.4,%
+2023,AK,Copper River,Disability,Mobility disability among adults,14.9,%
+2022,AL,Cherokee,Health Risk Behaviors,Short sleep duration among adults,37.4,%
+2023,AL,Jefferson,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,10.1,%
+2023,AL,Cleburne,Health Risk Behaviors,Binge drinking among adults,16.7,%
+2023,AR,Cleveland,Prevention,Visits to doctor for routine checkup within the past year among adults,76.6,%
+2023,AL,Blount,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,13.1,%
+2023,AR,Arkansas,Prevention,Cholesterol screening among adults,83.3,%
+2023,CA,Placer,Health-Related Social Needs,Loneliness among adults,33.6,%
+2023,AL,Autauga,Health-Related Social Needs,Received food stamps in the past 12 months among adults,11.3,%
+2023,AL,Elmore,Prevention,Cholesterol screening among adults,84.6,%
+2023,AZ,Graham,Prevention,Taking medicine to control high blood pressure among adults with high blood pressure,53.5,%
+2023,CA,Mariposa,Health Outcomes,Cancer (non-skin) or melanoma among adults,11.5,%
+2023,AL,Washington,Health Outcomes,Chronic obstructive pulmonary disease among adults,9.5,%
+2023,AL,Etowah,Health Status,Fair or poor self-rated health status among adults,26.5,%
+2023,AL,Barbour,Health Outcomes,High blood pressure among adults,45.4,%
+2023,AL,Coosa,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,11.6,%
+2023,AK,Anchorage,Disability,Self-care disability among adults,3.0,%
+2023,AK,Prince of Wales-Hyder,Health-Related Social Needs,Lack of reliable transportation in the past 12 months among adults,12.2,%
+2023,CA,Contra Costa,Health-Related Social Needs,Housing insecurity in the past 12 months among adults,11.5,%
+2023,CA,San Bernardino,Health Outcomes,High blood pressure among adults,31.6,%
+2023,AR,Montgomery,Health Outcomes,Depression among adults,27.8,%
+2023,AR,Ashley,Health-Related Social Needs,Utility services shut-off threat in the past 12 months among adults,15.4,%
+2023,AR,Sevier,Health Risk Behaviors,No leisure-time physical activity among adults,40.0,%
+2023,AR,Lincoln,Health Status,Frequent mental distress among adults,19.5,%
+2023,AR,Pulaski,Health-Related Social Needs,Lack of social and emotional support among adults,28.0,%
+2022,AR,Stone,Prevention,Mammography use among women aged 50-74 years,69.5,%
+2023,AK,Juneau,Health Risk Behaviors,Current cigarette smoking among adults,13.9,%
+2023,AL,Elmore,Disability,Any disability among adults,35.2,%
+2023,CA,Humboldt,Health Status,Frequent mental distress among adults,20.7,%
