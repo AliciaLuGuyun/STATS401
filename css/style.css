@@ -93,3 +93,84 @@ p {
 .temperature-point {
   cursor: pointer;
 }
+
+.table-container {
+  max-height: 650px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #eee;
+  cursor: pointer;
+}
+
+th:hover,
+th:focus {
+  background: #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+#category-select {
+  margin: 0 0 15px 8px;
+  padding: 5px;
+  font: inherit;
+}
+
+.table-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.table-filters select {
+  padding: 5px;
+  font: inherit;
+}
+
+#visible-records {
+  color: #555;
+  margin-left: 8px;
+}
+
+#health-chart {
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+#health-chart svg {
+  display: block;
+  min-width: 700px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+.health-bar {
+  fill: steelblue;
+}
+
+.health-value {
+  font-size: 12px;
+  fill: #333;
+}
