@@ -3,12 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 3</title>
+  <title>Lab 3 - Web Data Acquisition</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <h1>Lab 3</h1>
-  <p>Lab 3 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+
+  <h1>Lab 3: Web Data Acquisition</h1>
+
+  <h2>Dataset Description</h2>
+  <p>
+    This dataset contains 1,200 county-level public health estimates.
+    Each record includes the state, county, health category, measure,
+    estimated value, unit, and year.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Source:</strong>
+      <a href="https://data.cdc.gov/d/swc5-untb">
+        CDC PLACES: County Data, 2025 release
+      </a>
+    </li>
+    <li><strong>Method:</strong> REST API acquisition with Python and requests</li>
+    <li><strong>Records collected:</strong> 1,200</li>
+  </ul>
+
+  <h2>Health Measure Overview</h2>
+  <p>
+    Choose a category to compare the average percentage for its health measures
+    in the collected records.
+  </p>
+  <label for="category-select">Category:</label>
+  <select id="category-select"></select>
+  <div id="health-chart" aria-live="polite"></div>
+
+  <h2>Acquired Data</h2>
+  <p>Filter the table by category or state. Other column headings can be clicked to sort.</p>
+  <div class="table-filters">
+    <label for="table-category-filter">Category:</label>
+    <select id="table-category-filter"></select>
+    <label for="table-state-filter">State:</label>
+    <select id="table-state-filter"></select>
+    <span id="visible-records"></span>
+  </div>
+
+  <div class="table-container">
+    <table id="data-table">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab3.js"></script>
 </body>
 </html>
