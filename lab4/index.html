@@ -3,12 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 4</title>
+  <title>Lab 4 - Cleaning Web Data</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <h1>Lab 4</h1>
-  <p>Lab 4 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+
+  <h1>Lab 4: Cleaning Web Data for Visualization</h1>
+
+  <h2>Airline Tweet Sentiment</h2>
+  <p>
+    This project uses 1,200 tweets sampled reproducibly from the public
+    U.S. Airline Tweets dataset. The chart compares RoBERTa-estimated
+    sentiment across six airlines.
+  </p>
+
+  <div id="sentiment-chart" aria-live="polite"></div>
+  <div id="chart-legend" class="chart-legend"></div>
+
+  <h2>Analysis</h2>
+  <p>
+    I used a reproducible sample of 1,200 public tweets about six U.S.
+    airlines. In Python, I removed missing or duplicate tweet records, parsed
+    dates, converted retweet counts to nonnegative integers, standardized
+    whitespace, and retained the airline category. For TF-IDF, URLs, usernames,
+    and numbers were normalized before tokenization, stop-word removal, and
+    lemmatization. Sentiment was then estimated from the more lightly cleaned
+    tweet text with the CardiffNLP Twitter RoBERTa model. The resulting labels
+    and scores are model-generated estimates rather than ground-truth opinions.
+    The stacked bars show the percentage of positive, neutral, and negative
+    tweets within each airline, so airlines with different numbers of sampled
+    tweets can be compared fairly. Negative sentiment is the largest category
+    for five of the six airlines in this historical sample. Virgin America is
+    the exception, with positive sentiment forming the largest share. These
+    results describe this dataset and time period only and should not be
+    interpreted as current airline performance.
+  </p>
+
+  <h2>Methods and Files</h2>
+  <ul>
+    <li>Raw tweets retained: 1,200</li>
+    <li>
+      Source: <a href="https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment">
+        Twitter US Airline Sentiment dataset
+      </a> (CC BY-SA 4.0)
+    </li>
+    <li>Cleaning and analysis: pandas, NLTK, scikit-learn, and RoBERTa</li>
+    <li>Visualization: D3.js stacked percentage bar chart</li>
+    <li><a href="../data/lab4_raw_tweets.csv">Raw sampled data</a></li>
+    <li><a href="../data/lab4_clean_tweets.csv">Cleaned tweet-level data</a></li>
+  </ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab4.js"></script>
 </body>
 </html>
