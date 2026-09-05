@@ -174,3 +174,34 @@ tbody tr:nth-child(even) {
   font-size: 12px;
   fill: #333;
 }
+
+#sentiment-chart {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+#sentiment-chart svg {
+  display: block;
+  min-width: 700px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 18px;
+  margin: 8px 0 25px;
+}
+
+.chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-legend i {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
