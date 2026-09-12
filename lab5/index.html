@@ -3,12 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 5</title>
+  <title>Lab 5 - Interactive Network Visualization</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="lab5.css">
 </head>
 <body>
-  <h1>Lab 5</h1>
-  <p>Lab 5 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+  <h1>Lab 5: Interactive Network Visualization</h1>
+  <h2>1. Dataset Description</h2>
+  <p>This synthetic urban transit network contains 50 stations and 50 direct routes.
+    Stations have a district, average daily passenger volume, and station type.
+    Routes have a travel time and service type. Connections are undirected: a route
+    from A to B also connects B to A. The layout shows connectivity, not a geographic map.</p>
+  <p><a href="https://github.com/hiilab/stats-401/blob/main/Lab5.md">Official assignment and data source</a> ·
+    <a href="../data/lab5_assignment_stations.csv">Stations CSV</a> ·
+    <a href="../data/lab5_assignment_routes.csv">Routes CSV</a> ·
+    <a href="WALKTHROUGH.md">Code walkthrough and study notes</a></p>
+  <p id="data-status" role="status">Loading both network tables…</p>
+  <h2>2. Node-Link Visualization</h2>
+  <p>Drag a station to untangle routes. Hover over a station to reveal its direct neighbors,
+    or hover over a route for its endpoints and travel time. Numbers identify stations
+    (for example, 7 means Station 7). Use the selector for a persistent highlight.</p>
+  <div class="network-controls">
+    <label for="station-select">Inspect station:</label>
+    <select id="station-select"><option value="">All stations</option></select>
+    <button id="reset-network" type="button">Clear highlight</button>
+    <span id="simulation-status" role="status">Layout settling…</span>
+  </div>
+  <div id="network-legend" class="lab5-legends"></div>
+  <div id="network" class="visual-scroll"></div>
+  <h2>3. Node-Link Design Description</h2>
+  <p class="design-description">I used different fill colors for districts because these are categories with no natural ranking.
+    Circle area represents daily passengers, so busier stations look larger. I kept all stations circular
+    to make size comparisons easier and used thin, thick, or dashed borders for Local, Transfer, and Terminal
+    stations. Route color runs from light to dark blue as travel time increases. All routes have the same width:
+    a longer journey does not mean a stronger connection. Solid, dashed, and dotted lines distinguish Metro,
+    Express, and Shuttle services. Dragging helps separate nearby stations. Hovering fades unrelated stations
+    and routes, making direct neighbors easier to follow. Tooltips give full station names, passenger counts,
+    station types, degrees, and exact route times. Node position reflects the force layout rather than geography
+    or a calculated importance score.</p>
+  <h2>4. Adjacency Matrix</h2>
+  <p>Rows and columns are stations, grouped by district and then station number. A colored cell is a direct
+    route; a pale gray cell is no direct route. The diagonal is darker gray (same station).
+    Hover over any cell to identify its row and column. Scroll horizontally on smaller screens.</p>
+  <div id="matrix-legend" class="lab5-legends"></div>
+  <p id="matrix-inspection" role="status">Hover over a matrix cell to inspect a station pair.</p>
+  <div id="matrix" class="visual-scroll" tabindex="0" aria-label="Scrollable adjacency matrix"></div>
+  <h2>5. Matrix Design Description</h2>
+  <p class="design-description">The matrix uses the same stations on both axes. A colored cell means a direct route, and each
+    undirected route appears twice, mirrored across the diagonal. Cell hue identifies service type, while darker
+    cells indicate longer travel times. District-colored labels and district boundaries make connections between
+    groups easier to compare. Within each district, station numbers increase so names are easy to find. I left
+    passenger volume and station type out of the cells to avoid overloading them. Hover outlines the relevant
+    row and column and reports the exact pair and route information. This view helps inspect direct connections
+    and district patterns, although following a journey through several stations is easier in the node-link view.</p>
+  <h2>6. Network Questions and Findings</h2>
+  <div id="findings">
+    <ol>
+      <li><strong>Which stations appear central in the network?</strong><br>
+        <strong>Partially · Both views.</strong> Hover highlighting reveals branching stations such as
+        7, 16, 23, 29, and 31. Each has three direct neighbors, also visible as three colored cells in its
+        matrix row. Several stations share this degree, so there is no single dominant hub. A station near
+        the middle of the drawing is not necessarily the most central: the force layout changes when dragged.
+        These views support local connectivity, but do not directly rank betweenness or other centrality measures.</li>
+      <li><strong>Which districts are strongly connected to one another?</strong><br>
+        <strong>Well for direct-route counts · Adjacency matrix.</strong> The district boundaries make the
+        South–East block look more populated than the other district-pair blocks. Counting its colored cells
+        gives 11 direct routes, compared with 9 each for Central–North and East–West. Since every district has
+        10 stations, these blocks are comparable in size. “Strongly connected” here means more direct routes,
+        not greater passenger flow or a formal directed-network property.</li>
+      <li><strong>Where are transfer or terminal stations located in the topology?</strong><br>
+        <strong>Well · Node-link.</strong> Thick-bordered Transfer stations occur along the network and at
+        some endpoints: Stations 44, 47, and 50 each have one attached route. Dashed-border Terminal stations
+        do not consistently mark ends: Station 7 branches to three neighbors, while 43, 46, and 49 stand
+        apart without links. Border styles and neighborhood hover reveal that the synthetic role labels
+        do not reliably predict topological position.</li>
+      <li><strong>Which stations have high passenger volume?</strong><br>
+        <strong>Well · Node-link.</strong> Stations 46–50 are among the largest circles, with Station 50
+        the largest. Its tooltip confirms 9,850 daily passengers. The large isolated circles for 46, 48,
+        and 49 show why passenger volume should not be confused with degree. Size reveals the high-volume
+        group; tooltips distinguish the small differences between similarly sized stations.</li>
+      <li><strong>Where are the longest direct travel-time connections?</strong><br>
+        <strong>Well with hover · Both views.</strong> The darkest blue routes include Station 7–31,
+        Station 18–34, and Station 29–50. Hover confirms 16, 15, and 14 minutes respectively. In the matrix,
+        these are dark orange Express cells in the North–Central, South–East, and East–West blocks.
+        Darkness helps locate candidates and tooltips establish the exact ranking; physical line length
+        does not encode travel time.</li>
+      <li><strong>Are particular route types concentrated in particular parts of the network?</strong><br>
+        <strong>Partially · Adjacency matrix.</strong> The major district-pair blocks mix teal Metro,
+        orange Express, and purple Shuttle cells rather than separating into single-service regions.
+        A small exception is the Central–Central block: its two routes, Station 1–16 and Station 21–41,
+        are both purple Shuttle cells. Hover confirms their service type. This supports a local pattern,
+        but two connections are too few to claim a broad service specialization.</li>
+    </ol>
+  </div>
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab5.js"></script>
 </body>
 </html>

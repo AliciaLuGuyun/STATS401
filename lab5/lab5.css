@@ -1,0 +1,23 @@
+/* Lab-specific styles leave the earlier assignments unchanged. */
+.visual-scroll { overflow-x: auto; border: 1px solid #ddd; background: #fff; }
+#network svg { display: block; width: 100%; min-width: 900px; height: auto; }
+#matrix svg { display: block; max-width: none; }
+.network-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 16px 0; }
+.network-controls select, .network-controls button { font: inherit; padding: 6px; }
+#simulation-status, #data-status { color: #555; }
+.lab5-legends { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 14px 0; }
+.legend-block { display: inline-block; max-width: 100%; overflow-x: auto; }
+.legend-block strong { display: block; font-size: 14px; margin-bottom: 4px; }
+.legend-block svg { display: block; }
+.station { cursor: grab; }
+.station:active { cursor: grabbing; }
+.station:focus { outline: none; }
+.station:focus circle { stroke: #000; }
+.station-label { font-size: 12px; font-weight: bold; pointer-events: none; paint-order: stroke; stroke: white; stroke-width: 3px; fill: #111; }
+.route-hit { stroke: transparent; stroke-width: 12px; cursor: pointer; }
+.matrix-label { font-size: 12px; }
+.matrix-cell { cursor: crosshair; }
+#matrix-inspection { min-height: 3.2em; padding: 8px 12px; background: #f4f6f8; }
+#tooltip { position: fixed; z-index: 10; max-width: 290px; white-space: pre-line; border-radius: 4px; box-shadow: 0 2px 7px #0002; line-height: 1.5; }
+#findings li { margin-bottom: 20px; line-height: 1.6; }
+@media (max-width: 600px) { body { margin-top: 20px; } h1 { font-size: 27px; } }
