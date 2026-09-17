@@ -1,0 +1,18 @@
+.status-legend { display: flex; flex-wrap: wrap; gap: 18px; margin: 18px 0 28px; }
+.status-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.status-swatch { width: 16px; height: 16px; display: inline-block; border: 1px solid #555; }
+.treemap-container { overflow-x: auto; border: 1px solid #ccc; background: #fafafa; }
+.treemap-container svg { display: block; width: 100%; min-width: 850px; height: auto; }
+.country-cell { cursor: pointer; }
+.country-cell rect { stroke: white; stroke-width: 1.5px; }
+.country-cell:hover rect, .country-cell:focus rect { stroke: #111; stroke-width: 3px; }
+.country-cell:focus { outline: none; }
+.country-label { pointer-events: none; fill: #111; font-size: 12px; font-weight: bold; paint-order: stroke; stroke: white; stroke-width: 3px; stroke-linejoin: round; }
+.gdp-label { font-size: 11px; font-weight: normal; }
+.area-outline, .continent-outline { fill: none; pointer-events: none; }
+.area-outline { stroke: #555; stroke-width: 1.5px; }
+.continent-outline { stroke: #111; stroke-width: 3px; }
+.area-label, .continent-label { pointer-events: none; font-weight: bold; paint-order: stroke; stroke: white; stroke-width: 4px; }
+.area-label { font-size: 12px; fill: #444; }
+.continent-label { font-size: 15px; fill: #111; }
+.lab6-tooltip { position: fixed; z-index: 10; max-width: 300px; white-space: pre-line; line-height: 1.5; border-radius: 4px; box-shadow: 0 2px 7px #0002; }

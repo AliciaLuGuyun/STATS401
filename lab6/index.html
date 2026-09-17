@@ -3,12 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 6</title>
+  <title>Lab 6 - Hierarchical GDP Treemaps</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="lab6.css">
 </head>
 <body>
-  <h1>Lab 6</h1>
-  <p>Lab 6 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+
+  <h1>Lab 6: Hierarchical GDP Treemaps</h1>
+
+  <h2>Dataset and Hierarchy</h2>
+  <p>
+    This synthetic dataset contains 27 countries organized as
+    World → Continent → Area → Country. Rectangle area represents GDP in
+    billions of U.S. dollars, while color represents whether GDP increased,
+    stayed unchanged, or decreased.
+  </p>
+  <p id="data-status" role="status">Loading hierarchical GDP data…</p>
+
+  <div id="status-legend" class="status-legend" aria-label="GDP status legend"></div>
+
+  <section>
+    <h2>Treemap 1: Squarify</h2>
+    <p>Squarify tries to create rectangles with aspect ratios closer to squares.</p>
+    <div id="treemap-squarify" class="treemap-container" aria-live="polite"></div>
+  </section>
+
+  <section>
+    <h2>Treemap 2: Binary</h2>
+    <p>Binary recursively divides the available space into two groups.</p>
+    <div id="treemap-binary" class="treemap-container" aria-live="polite"></div>
+  </section>
+
+  <section>
+    <h2>Design Description</h2>
+    <p class="design-description">
+      In both treemaps, country rectangle area represents GDP because area makes
+      part-to-whole relationships visible within the global economy. Green,
+      gray, and red represent Increase, Unchanged, and Decrease because GDP
+      status is categorical and the colors have familiar directional meanings.
+      Continent and area labels, together with nested borders, show the hierarchy.
+      Country labels appear when a rectangle has enough room; hovering always
+      provides the full country, area, continent, GDP, and status. Keeping these
+      encodings identical makes the tiling method the only major difference.
+      Squarify generally produces more compact, square-like country rectangles,
+      so labels and area comparisons are often easier. Binary recursively splits
+      the available space, creating a more directional arrangement with some
+      longer rectangles. It still preserves the same hierarchy and values, but
+      the changed shapes and positions can make particular countries easier or
+      harder to compare. Neither layout changes the underlying GDP data.
+    </p>
+  </section>
+
+  <div id="tooltip" class="tooltip lab6-tooltip" role="tooltip"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab6.js"></script>
 </body>
 </html>
