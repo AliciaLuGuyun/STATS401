@@ -3,12 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 7</title>
+  <title>Lab 7 - Temporal Commercial Network</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="lab7.css">
 </head>
 <body>
-  <h1>Lab 7</h1>
-  <p>Lab 7 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+  <h1>Lab 7: Animated Temporal Commercial Network</h1>
+
+  <h2>1. Dataset Description</h2>
+  <p>This visualization uses the provided fabricated commercial network with 12 companies and 367 transaction records over 60 days. Companies are nodes, daily transactions are undirected links, and the animation shows how active relationships appear, disappear, and change in value over time.</p>
+  <p><a href="https://github.com/hiilab/stats-401/blob/main/Lab7.md">Official assignment</a> ·
+    <a href="../data/lab7_assignment_companies.csv">Companies CSV</a> ·
+    <a href="../data/lab7_assignment_transactions_60days.csv">Transactions CSV</a></p>
+
+  <p id="data-status" role="status">Loading temporal network data...</p>
+
+  <h2>2. Temporal Network</h2>
+  <p>Use Play, Pause, Reset, or the slider to inspect any day. Hover over a company or transaction for details. The layout keeps the same company objects and gentle regional anchors across frames so positions remain reasonably stable.</p>
+
+  <div class="temporal-controls">
+    <button id="play" type="button">Play</button>
+    <button id="pause" type="button">Pause</button>
+    <button id="reset" type="button">Reset</button>
+    <label for="day-slider">Day</label>
+    <input id="day-slider" type="range" min="1" max="60" value="1">
+    <strong id="current-date">Day 1</strong>
+  </div>
+
+  <div id="daily-summary" class="daily-summary" aria-live="polite"></div>
+  <div id="legend" class="legend"></div>
+  <div id="network" class="visual-scroll"></div>
+
+  <h2>3. Design Description</h2>
+  <p class="design-description">Company sector is encoded with node fill color, and region is encoded with node symbol shape and stroke style. Node size changes each day based on that company's current transaction volume. Link color encodes transaction type, link width encodes dollar amount, and opacity encodes transaction count. New links fade in and disappearing links fade out. The force simulation is created once, reuses the same node objects, and includes light regional positioning forces so the layout changes without fully rearranging on every day.</p>
+
+  <h2>4. Temporal Network Questions</h2>
+  <div id="findings">
+    <ol>
+      <li><strong>How does overall network connectivity change across the 60 days?</strong><br>
+        Connectivity starts sparse: Day 1 has 3 links, 6 active companies, and $47,654 in value. Mid-period days usually show about 5-8 links, while Day 60 reaches 9 links, all 12 companies active, and $178,428 in value. Overall activity becomes denser and higher-value by the end.</li>
+      <li><strong>Which companies become more central or commercially active over time?</strong><br>
+        Fusion Electronics is the largest overall participant, appearing in 104 daily relationship endpoints and about $1.99M of total connected value. Ion Systems, Cedar Retail, Harbor Shipping, and Granite Wholesale also become frequent active nodes. Evergreen Foods is the least active overall at about $285K.</li>
+      <li><strong>Are there periods when the network consists of relatively separate clusters?</strong><br>
+        Yes. Early and middle days often split into several small components, such as Day 1 with three separate 2-company pairs and Day 4 with four clusters. Later days still separate into groups, but larger components appear more often, such as Day 60 with an 8-company component plus two pairs.</li>
+      <li><strong>Which commercial relationships appear, disappear, or become stronger over time?</strong><br>
+        Repeated strong relationships include Delta Components-Fusion Electronics ($440K total), Ion Systems-Lumen Distribution ($383K), Apex Textiles-BlueRiver Logistics ($355K), and Ion Systems-Juniper Stores ($329K). Some later relationships strengthen the network, including Fusion Electronics-Ion Systems and Cedar Retail-Keystone Materials, which appear in Days 41-60.</li>
+      <li><strong>Does the network become more or less cross-regional over time?</strong><br>
+        It becomes slightly more cross-regional. In Days 1-30, 106 of 166 daily links are cross-region, about 64%. In Days 31-60, 140 of 201 daily links are cross-region, about 70%. The later network therefore shows more activity across regional boundaries.</li>
+    </ol>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="lab7.js"></script>
 </body>
 </html>

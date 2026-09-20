@@ -1,0 +1,111 @@
+.temporal-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.temporal-controls button {
+  padding: 6px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.temporal-controls input {
+  width: min(420px, 100%);
+}
+
+.daily-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 14px 0;
+  padding: 10px;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+.daily-summary span {
+  white-space: nowrap;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+  font-size: 14px;
+}
+
+.legend-section {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.legend-section h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.legend-swatch {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: 1px solid #555;
+}
+
+.legend-line {
+  width: 34px;
+  height: 0;
+  display: inline-block;
+  border-top: 4px solid #555;
+}
+
+#network {
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+#network svg {
+  display: block;
+  min-width: 850px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.node-label {
+  font-size: 12px;
+  font-weight: bold;
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  fill: #222;
+}
+
+.link,
+.link-hit,
+.company {
+  cursor: pointer;
+}
+
+.link-hit {
+  stroke: transparent;
+  stroke-width: 14;
+}
+
+.region-label {
+  font-size: 13px;
+  fill: #777;
+  text-anchor: middle;
+}
