@@ -1,0 +1,221 @@
+{
+  "source_pdf": "/Users/guyunlu/Documents/ChatGPT/STATS401/lab8/data/bulletin.pdf",
+  "bulletin_title": "Bulletin of Duke Kunshan University Undergraduate Instruction",
+  "academic_year": "2021-2022",
+  "official_source": "https://dku-web-admissions.s3.cn-north-1.amazonaws.com.cn/dkumain/files/V2021-22_DKU_UG_Bulletin.pdf",
+  "date_accessed": "2026-09-27",
+  "raw_passages": 1101,
+  "clean_passages": 987,
+  "removed_passages": 114,
+  "duplicate_count": 114,
+  "average_passage_words": 95.21,
+  "median_passage_words": 84,
+  "length_distribution": {
+    "100_199": 292,
+    "50_99": 351,
+    "200_plus": 74,
+    "25_49": 163,
+    "under_25": 107
+  },
+  "formal_sections": 278,
+  "chapters": 12,
+  "missing_chapter": 0,
+  "missing_section": 0,
+  "missing_subsection": 298,
+  "short_examples": [
+    {
+      "passage_id": "p0217",
+      "page": 87,
+      "words": 8,
+      "text": "Choose one from the following two Math courses"
+    },
+    {
+      "passage_id": "p0218",
+      "page": 87,
+      "words": 8,
+      "text": "Choose one course from the following two courses"
+    },
+    {
+      "passage_id": "p0219",
+      "page": 88,
+      "words": 8,
+      "text": "And choose one from the following three courses"
+    },
+    {
+      "passage_id": "p0232",
+      "page": 101,
+      "words": 8,
+      "text": "And choose one of the following three courses"
+    },
+    {
+      "passage_id": "p0246",
+      "page": 124,
+      "words": 8,
+      "text": "And choose one from the following two courses"
+    },
+    {
+      "passage_id": "p0268",
+      "page": 160,
+      "words": 8,
+      "text": "And choose one from the following four courses"
+    },
+    {
+      "passage_id": "p0333",
+      "page": 230,
+      "words": 8,
+      "text": "CAPSTONE 495 Signature Work Capstone I (4 credits) Prerequisite(s): Senior Standing"
+    },
+    {
+      "passage_id": "p0354",
+      "page": 236,
+      "words": 8,
+      "text": "CHINESE 131B First Year Chinese for Heritage Learners 1 - B (2 credits)"
+    }
+  ],
+  "long_examples": [
+    {
+      "passage_id": "p0224",
+      "page": 93,
+      "words": 455,
+      "text": "This major is not available to the Class of 2022. It is available for the Class of 2023 and beyond. The new field of behavioral science seeks to understand how humans think and act within their environments and how policies can shape that behavior. For example, research showing the power of default "
+    },
+    {
+      "passage_id": "p0244",
+      "page": 122,
+      "words": 467,
+      "text": "The pressing needs for sustainable development and acceptable environmental quality are placing increasing demands upon governments and industries locally, nationally, and worldwide. To help meet those demands, the Environmental Science major provides training for students intending to enter environ"
+    },
+    {
+      "passage_id": "p0279",
+      "page": 188,
+      "words": 500,
+      "text": "All biological sciences rest on two central principles – all organisms and their characteristics are the product of evolution, and all life processes have a physical and chemical basis. Simply put, at the most fundamental level, there is a shared molecular basis of life. Despite the astonishing dive"
+    },
+    {
+      "passage_id": "p0252",
+      "page": 132,
+      "words": 510,
+      "text": "Ethics and Leadership with tracks in Philosophy, Public Policy, Religious Studies The human sciences have made significant advances in understanding what makes for effective leaders and organizations and the qualities of character needed to make sound decisions. For example, social and organizationa"
+    },
+    {
+      "passage_id": "p0017",
+      "page": 16,
+      "words": 518,
+      "text": "The Duke Kunshan University undergraduate curriculum can be described as a \"research-inflected liberal arts experience\" that builds on the unique DNA of Duke as a major research university but with a strong liberal arts philosophy, structure and orientation. The curriculum does not rely on tradition"
+    },
+    {
+      "passage_id": "p0121",
+      "page": 53,
+      "words": 554,
+      "text": "Credit/No Credit (CR/NC) Grading System for the Classes of 2022-2024 In order to encourage students to explore the richness and variety of Duke Kunshan University's curricular offerings without worrying unduly about grades, students may elect to take up to four credits each term and summer session o"
+    },
+    {
+      "passage_id": "p0144",
+      "page": 62,
+      "words": 567,
+      "text": "A medical leave of absence with proper documentation may be granted at any time but with one restriction. Students requesting a medical leave of absence during a current term must file the leave of absence forms with the Office of Undergraduate Studies prior to the end of the last day of classes of "
+    },
+    {
+      "passage_id": "p0123",
+      "page": 54,
+      "words": 633,
+      "text": "may differ from those at DKU. Courses taken at Duke on a S/U basis will transfer back to DKU and be recorded using DKU's CR/NC system. Such courses will be subject to all regulations and limitations stated for the DKU CR/NC policy in the DKU Bulletin, including all restrictions on the number of cred"
+    }
+  ],
+  "top_sections": [
+    [
+      "History (HIST)",
+      56
+    ],
+    [
+      "Media and Arts (MEDIART)",
+      44
+    ],
+    [
+      "Political Science (POLSCI)",
+      40
+    ],
+    [
+      "Public Policy (PUBPOL)",
+      38
+    ],
+    [
+      "Biology (BIOL)",
+      32
+    ],
+    [
+      "Chinese (CHINESE)",
+      31
+    ],
+    [
+      "Literature (LIT)",
+      31
+    ],
+    [
+      "Physical Education (PHYSEDU)",
+      28
+    ],
+    [
+      "Economics (ECON)",
+      25
+    ],
+    [
+      "Mathematics (MATH)",
+      24
+    ],
+    [
+      "Cultural Anthropology (CULANTH)",
+      21
+    ],
+    [
+      "Computer Science (COMPSCI)",
+      20
+    ],
+    [
+      "Environment (ENVIR)",
+      20
+    ],
+    [
+      "Physics (PHYS)",
+      19
+    ],
+    [
+      "Global Cultural Studies (GCULS)",
+      17
+    ],
+    [
+      "Philosophy (PHIL)",
+      17
+    ],
+    [
+      "Religious Studies (RELIG)",
+      16
+    ],
+    [
+      "Chemistry (CHEM)",
+      15
+    ],
+    [
+      "Statistics (STATS)",
+      15
+    ],
+    [
+      "Global Health (GLHLTH)",
+      14
+    ]
+  ],
+  "chapters_list": [
+    "General Information",
+    "A Liberal Arts Education at Duke Kunshan University",
+    "The Curriculum",
+    "Admission, Scholarships and Financial Aid",
+    "Financial Information",
+    "Academic Procedures and Information",
+    "Academic Advising and Support",
+    "Career Services, Study Away, and Research Opportunities",
+    "Student Affairs and Campus Life",
+    "Majors and Courses",
+    "Academic Calendar 2021-22",
+    "Useful Contacts"
+  ]
+}

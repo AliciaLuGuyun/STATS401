@@ -3,12 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 8</title>
+  <title>Lab 8 - DKU Bulletin Semantic Explorer</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lab 8</h1>
-  <p>Lab 8 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+  <h1>Lab 8: DKU Bulletin Semantic Explorer</h1>
+
+  <h2>1. Bulletin / Corpus Description</h2>
+  <p>This project analyzes the <em>Bulletin of Duke Kunshan University Undergraduate Instruction</em>, academic year 2021-2022. The source PDF was downloaded from the official DKU admissions S3 URL on 2026-09-27. I extracted one paragraph or short policy/course block as one passage, preserving chapter, section, subsection, page, and original text where the PDF made those fields reliable.</p>
+  <p><a href="https://github.com/hiilab/stats-401/blob/main/Lab8.md">Official assignment</a> ·
+    <a href="https://dku-web-admissions.s3.cn-north-1.amazonaws.com.cn/dkumain/files/V2021-22_DKU_UG_Bulletin.pdf">Source bulletin PDF</a> ·
+    <a href="data/bulletin_passages.csv">Structured passages</a> ·
+    <a href="README.md">Reproducibility notes</a></p>
+
+  <div id="corpus-stats" class="stat-grid" aria-live="polite"></div>
+
+  <h2>2. Corpus Overview</h2>
+  <p>The overview charts summarize the cleaned corpus before semantic modeling. Section counts show where the bulletin is text-heavy; topic counts show the final semantic groups from clustering the original MiniLM embeddings.</p>
+  <div class="overview-grid">
+    <div>
+      <h3>Passages by Section</h3>
+      <div id="section-chart" class="chart-box"></div>
+    </div>
+    <div>
+      <h3>Semantic Topic Counts</h3>
+      <div id="topic-chart" class="chart-box"></div>
+    </div>
+  </div>
+
+  <h2>3. Semantic Embedding Map</h2>
+  <p>Each point is one bulletin passage. Position is the 2D UMAP projection of all-MiniLM-L6-v2 passage embeddings; color is semantic topic; size is passage word count. UMAP axes are not standalone variables, so interpret neighborhoods rather than x/y values.</p>
+
+  <div class="controls">
+    <label for="search-input">Search text:</label>
+    <input id="search-input" type="search" placeholder="credit, graduation, registration, academic integrity">
+    <label for="topic-filter">Topic:</label>
+    <select id="topic-filter"><option value="">All topics</option></select>
+    <label for="section-filter">Section:</label>
+    <select id="section-filter"><option value="">All sections</option></select>
+    <button id="reset-view" type="button">Reset view</button>
+    <button id="clear-selection" type="button">Clear selection</button>
+  </div>
+  <p id="match-count" role="status">Loading semantic map...</p>
+
+  <div id="topic-legend" class="legend"></div>
+  <div class="map-layout">
+    <div id="semantic-map" class="visual-scroll"></div>
+    <aside id="details-panel" class="details-panel">
+      <h3>Selected Passage</h3>
+      <p>Click a point to inspect its formal location, original passage text, and five nearest semantic neighbors calculated from the original 384-dimensional embedding space.</p>
+    </aside>
+  </div>
+
+  <h2>4. Topic x Bulletin Section Matrix</h2>
+  <p>Rows are formal bulletin sections and columns are semantic topics. Click a cell to highlight matching passages in the semantic map; selecting a passage also outlines its corresponding matrix cell.</p>
+  <div id="matrix-note" role="status"></div>
+  <div id="topic-section-matrix" class="matrix-scroll"></div>
+
+  <h2>5. Semantic Findings</h2>
+  <ol>
+    <li><strong>Major topics.</strong> The largest topic is Global Humanities and Social Sciences with 187 passages, followed by Curriculum Requirements and Course Choices with 183 and STEM and Quantitative Methods with 171. The smallest topic is Physical Education and Wellness with 26 passages, which is coherent and concentrated in PHYSEDU course descriptions.</li>
+    <li><strong>Topics crossing formal sections.</strong> Policy, Economics, and Environment appears in Public Policy, Environment, Economics, Global Health, and Political Science. Global Humanities and Social Sciences spans History, Literature, Sociology, Political Science, and Cultural Anthropology, showing semantic overlap across the course catalog.</li>
+    <li><strong>Semantically diverse sections.</strong> History has 56 passages distributed across 5 topics, the largest section-topic spread. Cultures and Movements also spans 5 topics despite only 9 passages, while Political Science, Biology, Environment, Philosophy, Global Health, and EAP each span 4 topics.</li>
+    <li><strong>Similar passages across formal structure.</strong> The Mission Statement passage is highly similar to the Liberal Arts Education curriculum passage (cosine similarity 0.8058), even though they occur in different formal sections. This shows how institutional mission language connects to curriculum design language.</li>
+    <li><strong>Search behavior.</strong> The term "credit" appears in 717 passages across every topic because many course descriptions include credit values. In contrast, "graduation" appears in 28 passages and is concentrated in Credit Transfer and Academic Procedures plus Curriculum Requirements and Course Choices; "academic integrity" appears in only 2 passages.</li>
+  </ol>
+
+  <h2>6. Design Description</h2>
+  <p class="design-description">I parsed the 2021-2022 DKU Undergraduate Bulletin into 987 paragraph or short policy/course-block passages, preserving chapter, formal section, subsection, page, and original text. The original text was retained, while a lightly normalized text field was used for modeling. Each passage was embedded with <code>sentence-transformers/all-MiniLM-L6-v2</code> through a local transformers environment; the resulting normalized vectors have 384 dimensions. Nearest neighbors and KMeans clustering were calculated in this original embedding space, not in the UMAP display. I inspected nearby K values from 7 to 10 and retained K=8 because it matched the assignment starting point and produced interpretable groups such as STEM methods, academic procedures, policy/economics/environment, and Chinese studies. UMAP used <code>n_neighbors=15</code>, <code>min_dist=0.15</code>, cosine distance, and <code>random_state=401</code>. In the map, position shows semantic proximity, color shows topic, and point size shows word count. Search, topic filter, section filter, zoom/pan, point details, and nearest-neighbor highlighting support passage-level exploration. The matrix connects semantic topics back to formal bulletin sections, making it possible to see where formal structure and semantic structure align or diverge. The clearest finding is that course catalog sections dominate the corpus, but policy, credit, and curriculum concepts cut across several formal sections.</p>
+
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="main.js"></script>
 </body>
 </html>

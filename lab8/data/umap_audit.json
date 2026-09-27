@@ -1,0 +1,12 @@
+{
+  "umap_version": "0.5.12",
+  "n_components": 2,
+  "n_neighbors": 15,
+  "min_dist": 0.15,
+  "metric": "cosine",
+  "random_state": 401,
+  "coords_shape": [
+    987,
+    2
+  ]
+}

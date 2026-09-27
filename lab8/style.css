@@ -1,0 +1,156 @@
+.stat-grid,
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.stat-card,
+.chart-box,
+.details-panel {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 12px;
+}
+
+.stat-card strong {
+  display: block;
+  font-size: 22px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 6px;
+  font: inherit;
+}
+
+#search-input {
+  width: min(340px, 100%);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend i {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+}
+
+.map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.9fr);
+  gap: 16px;
+}
+
+#semantic-map {
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+#semantic-map svg {
+  min-width: 760px;
+  background: #fff;
+  display: block;
+}
+
+.details-panel {
+  max-height: 760px;
+  overflow: auto;
+}
+
+.details-panel h3,
+.details-panel h4 {
+  margin-top: 0;
+}
+
+.details-meta,
+.small-note {
+  color: #555;
+  font-size: 14px;
+}
+
+.neighbor-list {
+  padding-left: 18px;
+}
+
+.point {
+  cursor: pointer;
+  stroke: white;
+  stroke-width: 0.8;
+}
+
+.point.dimmed {
+  opacity: 0.08;
+}
+
+.point.match {
+  stroke: #111;
+  stroke-width: 1.8;
+}
+
+.point.selected {
+  stroke: #000;
+  stroke-width: 3;
+}
+
+.point.neighbor {
+  stroke: #ffbf00;
+  stroke-width: 3;
+}
+
+.matrix-scroll {
+  max-height: 720px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.matrix-scroll svg {
+  display: block;
+  background: #fff;
+}
+
+.matrix-cell {
+  cursor: pointer;
+}
+
+.matrix-cell.active {
+  stroke: #111;
+  stroke-width: 2;
+}
+
+.matrix-cell.selected-cell {
+  stroke: #ffbf00;
+  stroke-width: 3;
+}
+
+.axis-label {
+  font-size: 11px;
+  fill: #333;
+}
+
+@media (max-width: 850px) {
+  .map-layout {
+    grid-template-columns: 1fr;
+  }
+}

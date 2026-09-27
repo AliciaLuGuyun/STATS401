@@ -1,0 +1,452 @@
+{
+  "cluster_names": {
+    "0": "Physical Education and Wellness",
+    "1": "Curriculum Requirements and Course Choices",
+    "2": "Credit Transfer and Academic Procedures",
+    "3": "Media, Writing, and Arts",
+    "4": "STEM and Quantitative Methods",
+    "5": "Policy, Economics, and Environment",
+    "6": "Chinese Language and China Studies",
+    "7": "Global Humanities and Social Sciences"
+  },
+  "topic_counts": [
+    {
+      "cluster_name": "Global Humanities and Social Sciences",
+      "count": 187
+    },
+    {
+      "cluster_name": "Curriculum Requirements and Course Choices",
+      "count": 183
+    },
+    {
+      "cluster_name": "STEM and Quantitative Methods",
+      "count": 171
+    },
+    {
+      "cluster_name": "Policy, Economics, and Environment",
+      "count": 118
+    },
+    {
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "count": 108
+    },
+    {
+      "cluster_name": "Chinese Language and China Studies",
+      "count": 104
+    },
+    {
+      "cluster_name": "Media, Writing, and Arts",
+      "count": 90
+    },
+    {
+      "cluster_name": "Physical Education and Wellness",
+      "count": 26
+    }
+  ],
+  "top_sections": [
+    {
+      "section": "History (HIST)",
+      "count": 56,
+      "average_words": 98.9,
+      "topic_count": 5
+    },
+    {
+      "section": "Media and Arts (MEDIART)",
+      "count": 44,
+      "average_words": 96.3,
+      "topic_count": 3
+    },
+    {
+      "section": "Political Science (POLSCI)",
+      "count": 40,
+      "average_words": 86.4,
+      "topic_count": 4
+    },
+    {
+      "section": "Public Policy (PUBPOL)",
+      "count": 38,
+      "average_words": 81.8,
+      "topic_count": 3
+    },
+    {
+      "section": "Biology (BIOL)",
+      "count": 32,
+      "average_words": 80.2,
+      "topic_count": 4
+    },
+    {
+      "section": "Literature (LIT)",
+      "count": 31,
+      "average_words": 101.9,
+      "topic_count": 3
+    },
+    {
+      "section": "Chinese (CHINESE)",
+      "count": 31,
+      "average_words": 79.7,
+      "topic_count": 2
+    },
+    {
+      "section": "Physical Education (PHYSEDU)",
+      "count": 28,
+      "average_words": 62.9,
+      "topic_count": 3
+    },
+    {
+      "section": "Economics (ECON)",
+      "count": 25,
+      "average_words": 72.4,
+      "topic_count": 3
+    },
+    {
+      "section": "Mathematics (MATH)",
+      "count": 24,
+      "average_words": 67.0,
+      "topic_count": 2
+    },
+    {
+      "section": "Cultural Anthropology (CULANTH)",
+      "count": 21,
+      "average_words": 100.8,
+      "topic_count": 4
+    },
+    {
+      "section": "Environment (ENVIR)",
+      "count": 20,
+      "average_words": 88.8,
+      "topic_count": 4
+    },
+    {
+      "section": "Computer Science (COMPSCI)",
+      "count": 20,
+      "average_words": 53.6,
+      "topic_count": 3
+    },
+    {
+      "section": "Physics (PHYS)",
+      "count": 19,
+      "average_words": 75.2,
+      "topic_count": 2
+    },
+    {
+      "section": "Philosophy (PHIL)",
+      "count": 17,
+      "average_words": 106.4,
+      "topic_count": 4
+    },
+    {
+      "section": "Global Cultural Studies (GCULS)",
+      "count": 17,
+      "average_words": 110.0,
+      "topic_count": 3
+    },
+    {
+      "section": "Religious Studies (RELIG)",
+      "count": 16,
+      "average_words": 87.6,
+      "topic_count": 3
+    },
+    {
+      "section": "Statistics (STATS)",
+      "count": 15,
+      "average_words": 59.2,
+      "topic_count": 3
+    },
+    {
+      "section": "Chemistry (CHEM)",
+      "count": 15,
+      "average_words": 73.3,
+      "topic_count": 2
+    },
+    {
+      "section": "Global Health (GLHLTH)",
+      "count": 14,
+      "average_words": 125.6,
+      "topic_count": 4
+    }
+  ],
+  "most_semantically_diverse_sections": [
+    {
+      "section": "History (HIST)",
+      "passages": 56,
+      "topics": 5
+    },
+    {
+      "section": "Cultures and Movements (CULMOVE)",
+      "passages": 9,
+      "topics": 5
+    },
+    {
+      "section": "Political Science (POLSCI)",
+      "passages": 40,
+      "topics": 4
+    },
+    {
+      "section": "Biology (BIOL)",
+      "passages": 32,
+      "topics": 4
+    },
+    {
+      "section": "Cultural Anthropology (CULANTH)",
+      "passages": 21,
+      "topics": 4
+    },
+    {
+      "section": "Environment (ENVIR)",
+      "passages": 20,
+      "topics": 4
+    },
+    {
+      "section": "Philosophy (PHIL)",
+      "passages": 17,
+      "topics": 4
+    },
+    {
+      "section": "Global Health (GLHLTH)",
+      "passages": 14,
+      "topics": 4
+    },
+    {
+      "section": "English for Academic Purposes (EAP)",
+      "passages": 10,
+      "topics": 4
+    },
+    {
+      "section": "Social Science (SOSC)",
+      "passages": 10,
+      "topics": 4
+    },
+    {
+      "section": "Media and Arts (MEDIART)",
+      "passages": 44,
+      "topics": 3
+    },
+    {
+      "section": "Public Policy (PUBPOL)",
+      "passages": 38,
+      "topics": 3
+    }
+  ],
+  "search_summary": {
+    "credit": {
+      "matches": 717,
+      "topics": {
+        "STEM and Quantitative Methods": 150,
+        "Global Humanities and Social Sciences": 149,
+        "Policy, Economics, and Environment": 100,
+        "Curriculum Requirements and Course Choices": 86,
+        "Chinese Language and China Studies": 85,
+        "Media, Writing, and Arts": 81,
+        "Credit Transfer and Academic Procedures": 40,
+        "Physical Education and Wellness": 26
+      },
+      "sections": {
+        "History (HIST)": 49,
+        "Media and Arts (MEDIART)": 40,
+        "Political Science (POLSCI)": 35,
+        "Public Policy (PUBPOL)": 33,
+        "Chinese (CHINESE)": 30,
+        "Biology (BIOL)": 30,
+        "Literature (LIT)": 29,
+        "Physical Education (PHYSEDU)": 27
+      }
+    },
+    "graduation": {
+      "matches": 28,
+      "topics": {
+        "Credit Transfer and Academic Procedures": 14,
+        "Curriculum Requirements and Course Choices": 14
+      },
+      "sections": {
+        "Graduation with Distinction": 2,
+        "Dual Degrees": 1,
+        "Declaration of Major": 1,
+        "Graduation and Commencement": 1,
+        "Notification of Intention to Graduate": 1,
+        "Section 3, Credits Required for Degrees.)": 1,
+        "Satisfactory Performance Each Term (Term Credit Requirements)": 1,
+        "The W and WA Designations": 1
+      }
+    },
+    "registration": {
+      "matches": 8,
+      "topics": {
+        "Curriculum Requirements and Course Choices": 4,
+        "Credit Transfer and Academic Procedures": 3,
+        "Chinese Language and China Studies": 1
+      },
+      "sections": {
+        "Registration": 2,
+        "Total Cost of Attendance $37,573 $33,457": 1,
+        "Class Scheduling": 1,
+        "The W and WA Designations": 1,
+        "Leave of Absence": 1,
+        "Compliance with Academic Regulations": 1,
+        "International Student Services": 1
+      }
+    },
+    "academic integrity": {
+      "matches": 2,
+      "topics": {
+        "Credit Transfer and Academic Procedures": 1,
+        "Curriculum Requirements and Course Choices": 1
+      },
+      "sections": {
+        "Academic Integrity": 1,
+        "Procedure for Resolution of Students' Academic Concerns": 1
+      }
+    }
+  },
+  "neighbors_example": [
+    {
+      "passage_id": "p0001",
+      "neighbor_rank": 1,
+      "neighbor_id": "p0003",
+      "similarity": 0.7602,
+      "passage_id_neighbor": "p0003",
+      "section": "Statement on Diversity and Inclusion",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University welcomes passionate, creative, and intellectually-driven students, faculty, and staff from all walks of life, from all over the world. We affirm the diverse histories, perspectives, experiences, identities, languages, and cultures that enhance our community, and we aim to create an environment where all members of our community are accepted, appreciated, and celebrated. Our commitment to inclusivity is grounded in the university's mission. DKU is a"
+    },
+    {
+      "passage_id": "p0001",
+      "neighbor_rank": 2,
+      "neighbor_id": "p0011",
+      "similarity": 0.6168,
+      "passage_id_neighbor": "p0011",
+      "section": "Duke Kunshan University Community Standard",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "All Duke Kunshan University students are required to hold themselves to the highest standards for honesty, integrity, fairness, and responsibility in their academic and co-curricular endeavors. Duke Kunshan University is a community comprised of individuals from diverse cultures and backgrounds. We are dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, respect, and accountability. Members of this community commit to reflecting upon and upholding these principles in all academic and non-academic endeavors, and to protecting and promoting a culture of integrity and trust. To uphold the Community Standard, each student is expected to pledge to hold him/herself to the highest standards for honesty, integrity, fairness, and responsibility in his/her academic and non-academic endeavors, to respect other cultures and embrace all forms of diversity, and to uphold the standards if they are compromised."
+    },
+    {
+      "passage_id": "p0001",
+      "neighbor_rank": 3,
+      "neighbor_id": "p0002",
+      "similarity": 0.6068,
+      "passage_id_neighbor": "p0002",
+      "section": "Mission Statement",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University is a highly selective research-oriented, liberal arts and sciences university located in China, whose primary mission is to enable students from around the world to lead purposeful and productive lives. By delivering the highest quality undergraduate and graduate education that is truly interdisciplinary, we prepare students for professional, intellectual and societal leadership roles across the globe. The core of our educational offering is a four-year undergraduate degree program featuring an integrated and multi-disciplinary curriculum, with an effective blend of Chinese, American, and global techniques and values and a culture of academic excellence and freedom. Our world-class faculty pursue knowledge in service of society, involving students in innovative scholarship and research programs. As a premier Sino-US joint-venture university, we embrace the integration of global, national, and local traditions of thought and experience and promote cross-cultural understanding and cross-border collaborations."
+    },
+    {
+      "passage_id": "p0001",
+      "neighbor_rank": 4,
+      "neighbor_id": "p0198",
+      "similarity": 0.5812,
+      "passage_id_neighbor": "p0198",
+      "section": "Campus Programs",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "events will not only build self-confidence in their personal development, they will also do work that benefits the campus community and the local community at large. Ultimately, students engaged in student involvement personally benefit from these experiences and community building opportunities. Check out the campus event calendar and opportunities at https://dukekunshan.campuslabs.com/engage. A sample of some of our key student activities for students to engage and cross-culturally connect include weekly programs such as our DKU Cinema and DKU Spotlight programs which showcase movie showings and put on student performances respectively. Activities also include campus wide dances, arts & culture workshops and excursions, boardgame nights, and karaoke to name a few. To help students learn more about China, students can partake in a student excursion program called DKU Quest - Exploring China's Beauty and Mystery where students are taken across China on excursions to places like the Zhejiang Anji Baofu Bamboo Forest, a Sichuan Tibetan Village, Nanjing, Beijing and the Great Wall, Zhang Jia Jie National Park (Avatar Mountains), and Huangshan (Yellow) Mountains. These activities constitute an exciting and important part of the Duke Kunshan University experience in serving the diverse needs and interests of our students and promoting connections outside the classroom. These opportunities also provide leadership skills, development opportunities and serve to empower students culturally, socially, and intellectually."
+    },
+    {
+      "passage_id": "p0001",
+      "neighbor_rank": 5,
+      "neighbor_id": "p0015",
+      "similarity": 0.5766,
+      "passage_id_neighbor": "p0015",
+      "section": "Animating Principles",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University provides a 21st century liberal arts and sciences education that helps students develop a sense of social responsibility and global citizenship, as well as strong and transferable intellectual and practical skills such as communication, analytical and problem-solving skills, and a demonstrated ability to apply knowledge and skills in real-world settings."
+    },
+    {
+      "passage_id": "p0002",
+      "neighbor_rank": 1,
+      "neighbor_id": "p0012",
+      "similarity": 0.8058,
+      "passage_id_neighbor": "p0012",
+      "section": "A Liberal Arts Education at Duke Kunshan University",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "A 21st Century Curriculum The Duke Kunshan University curriculum begins from liberal arts principles and is imbued with the hallmarks of a Duke education blended with Chinese tradition: interdisciplinary approaches, engagement with research questions, problem-based and team-based learning, and opportunities for students to craft individual pathways and deepen their intellectual engagement over time. It is a kind of education that builds critical thinking and problem-solving skills, simultaneously conferring a broad base of knowledge and fostering the ability to interrogate that knowledge and apply it flexibly. It is also deeply cross-cultural in its orientation: Duke Kunshan University gives all participants the continual experience of learning to see from multiple points of view and to work together across cultural boundaries—a crucial skill for the future."
+    },
+    {
+      "passage_id": "p0002",
+      "neighbor_rank": 2,
+      "neighbor_id": "p0005",
+      "similarity": 0.8031,
+      "passage_id_neighbor": "p0005",
+      "section": "Duke Kunshan University is a Sino-American partnership of Duke University, Wuhan",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "University and Kunshan city in Jiangsu province to create a world-class liberal arts and research university offering a range of academic programs for students from China and throughout the world. A nonprofit, joint-venture institution, Duke Kunshan University was granted the accreditation approval by China's Ministry of Education in September 2013. Duke Kunshan welcomed its first group of students in August 2014, initially offering graduate degrees as well as term-long programs for undergraduate students enrolled at Duke and other universities. In August 2018, Duke Kunshan welcomed its inaugural undergraduate class. The four-year bachelor's degree program is based in the liberal arts and sciences tradition, which emphasizes critical thinking, creativity, collaboration and exploration. With the goal of spearheading the future of higher education, Duke Kunshan is influenced and informed by both Chinese and American traditions of higher education. The shared vision of Duke and Wuhan universities is that Duke Kunshan will help address the changing needs of global higher education. Their rich heritage inspires Duke Kunshan to pursue academic excellence and integrity and apply classroom knowledge in service to society. Duke Kunshan delivers academic programs designed to address society's future needs through a curriculum based in the liberal arts tradition and a commitment to problem-based learning that challenges students to apply their knowledge during the learning process. As an international, intellectual community that encourages diversity, openness and creative learning, Duke Kunshan University welcomes outstanding students and faculty from around the world who contribute diverse perspectives and experiences to this global learning environment. The university's innovative programs inspire students to master academically rigorous course work, generate new ideas and develop creative solutions to the world's challenges, preparing them not just for careers in specific fields but to become globally sophisticated leaders and citizens. Duke Kunshan is governed by an independent Board of Trustees and operates under a set of guiding principles that are consistent with those of world-leading universities. Administrative operations are in the charge of the university leadership team, headed by the Chancellor and the Executive Vice Chancellor. Feng Youmei, Duke Kunshan University Chancellor, is a professor, the former Executive Vice President of Wuhan University and the Vice Chairwoman for the Medical Education Committee of the China Association of Higher Education. She has profound expertise in medical education as well as abundant experience in university administration. Executive Vice Chancellor Al Bloom is a recognized global education leader and a scholar of psychology and language with a special focus on Chinese language and culture. Prior to joining DKU, Dr. Bloom"
+    },
+    {
+      "passage_id": "p0002",
+      "neighbor_rank": 3,
+      "neighbor_id": "p0015",
+      "similarity": 0.7842,
+      "passage_id_neighbor": "p0015",
+      "section": "Animating Principles",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University provides a 21st century liberal arts and sciences education that helps students develop a sense of social responsibility and global citizenship, as well as strong and transferable intellectual and practical skills such as communication, analytical and problem-solving skills, and a demonstrated ability to apply knowledge and skills in real-world settings."
+    },
+    {
+      "passage_id": "p0002",
+      "neighbor_rank": 4,
+      "neighbor_id": "p0017",
+      "similarity": 0.768,
+      "passage_id_neighbor": "p0017",
+      "section": "Overview",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "The Duke Kunshan University undergraduate curriculum can be described as a \"research-inflected liberal arts experience\" that builds on the unique DNA of Duke as a major research university but with a strong liberal arts philosophy, structure and orientation. The curriculum does not rely on traditional majors housed in departments, but rather is built on interdisciplinary and disciplinary components in and across three thematic areas: (1) natural and applied sciences, (2) social sciences, and (3) arts and humanities. Flexibility and inter-disciplinarity are hallmarks of this curriculum, along with signature work that enables students to engage scholarship both individually and within a community of learners. This curriculum is designed to be compatible with the quality and depth of a Duke undergraduate degree but is unique and distinct from the current Duke undergraduate experience, which is aligned more with a traditional major's structure. The curriculum fosters learning communities of students and faculty whose intellectual interactions revolve around two groups: (1) The interdisciplinary community, which spans laterally a variety of disciplines. To the big questions at the core of each interdisciplinary community will be deployed a variety of disciplines, voices, viewpoints and expertise, usually also from a variety of divisions. The deep expertise brought to bear on discussion will be provided by both faculty and advanced students. (2) The disciplinary specialization, which is akin to, or even entirely aligned to, a traditional vertical discipline. From this community comes the training in the methods, knowledge, and skills of a specific discipline. Individual courses that belong to an interdisciplinary community or disciplinary specialization may be taken at various stages of a students' career. But the interdisciplinary community comes first in a students' overall development – it provides a broad intellectual home and is followed by or is in parallel to more specialized work. The dual structure is also flexible, to accommodate a variety of student goals and outcomes. Some students might choose to pursue a less deep path in the disciplinary specialization while focusing more on developing broad expertise in the questions underlying the interdisciplinary community— and in that case the outcome can be a powerful kind of integrative education for students whose goal is not graduate school or specialized study, which is where a great many careers and life paths lie. This approach allows for a highly integrative, team-based approach to problem solving and knowledge acquisition. For students oriented towards graduate study, the integrative and out-looking approach in the interdisciplinary community broadens and enriches their deeper specialist expertise. Our strong expectation is that a student with deep expertise who also has interacted in a significant, deep way with an interdisciplinary group focused on big questions will be more, not less, appealing to graduate schools or other specialty pursuits. For certain disciplines, students oriented towards graduate school may also need to use some electives, guided independent studies, research, online courses and Study Abroad courses to deepen expertise beyond the number of courses required for the disciplinary specialization. To ensure that Duke Kunshan University students develop the ability to communicate effectively, guided practice in writing and speaking are built into the fabric of the curriculum. All three Divisional Foundations sequences provide opportunities for students to practice the specialized discourse of their chosen field, while Common Core courses help students learn to communicate"
+    },
+    {
+      "passage_id": "p0002",
+      "neighbor_rank": 5,
+      "neighbor_id": "p0036",
+      "similarity": 0.7515,
+      "passage_id_neighbor": "p0036",
+      "section": "Principles of Selection",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University seeks high-caliber, diverse, and talented students with 60-70% of the student population from China, and 30-40% of students from the rest of the world. Like Duke University, academic excellence and accomplishments are important factors for admissions. In line with our own unique institutional identity, we also place a very high value on qualities such as perseverance, global-mindedness, entrepreneurialism and ability to make an impact. Applicants may be invited to attend an interview either in-person, by phone or via videoconference. Strong candidates from the Chinese mainland as well as Hong Kong, Macau and Taiwan will be invited to Duke Kunshan University for a one-day campus visit including an interview and an English writing test. All interviews are conducted in English."
+    },
+    {
+      "passage_id": "p0003",
+      "neighbor_rank": 1,
+      "neighbor_id": "p0011",
+      "similarity": 0.787,
+      "passage_id_neighbor": "p0011",
+      "section": "Duke Kunshan University Community Standard",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "All Duke Kunshan University students are required to hold themselves to the highest standards for honesty, integrity, fairness, and responsibility in their academic and co-curricular endeavors. Duke Kunshan University is a community comprised of individuals from diverse cultures and backgrounds. We are dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, respect, and accountability. Members of this community commit to reflecting upon and upholding these principles in all academic and non-academic endeavors, and to protecting and promoting a culture of integrity and trust. To uphold the Community Standard, each student is expected to pledge to hold him/herself to the highest standards for honesty, integrity, fairness, and responsibility in his/her academic and non-academic endeavors, to respect other cultures and embrace all forms of diversity, and to uphold the standards if they are compromised."
+    },
+    {
+      "passage_id": "p0003",
+      "neighbor_rank": 2,
+      "neighbor_id": "p0001",
+      "similarity": 0.7602,
+      "passage_id_neighbor": "p0001",
+      "section": "General Information",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Welcome to the intellectual and personal excitement of Duke Kunshan University, to its commitment to the finest education and to its passion for shaping a more knowledgeable, inclusive, responsible and peaceful world. DKU's founders, leaders and community have set ambitious goals. Confident that you will contribute importantly to reaching those goals, we invite you to join us in pursuing them together. Your experience here will prepare you to be among the next generations of leaders, who create the cutting edge of new knowledge, engage with courage and wisdom the world's most pressing challenges, and extend perspectives and understanding across our globe. We share with our fellow human beings across the world the desire to make it a better place whether at the level of providing clean drinking water and sustainable energy systems for rural villages, or of developing preventive measures against future pandemics, or of peacefully negotiating regional or global conflict. Please use this bulletin as a tool to understand who we are, to chart your own path through the rich opportunities DKU offers, and to help you to define the personal directions you hope to take through DKU and beyond."
+    },
+    {
+      "passage_id": "p0003",
+      "neighbor_rank": 3,
+      "neighbor_id": "p0002",
+      "similarity": 0.7511,
+      "passage_id_neighbor": "p0002",
+      "section": "Mission Statement",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University is a highly selective research-oriented, liberal arts and sciences university located in China, whose primary mission is to enable students from around the world to lead purposeful and productive lives. By delivering the highest quality undergraduate and graduate education that is truly interdisciplinary, we prepare students for professional, intellectual and societal leadership roles across the globe. The core of our educational offering is a four-year undergraduate degree program featuring an integrated and multi-disciplinary curriculum, with an effective blend of Chinese, American, and global techniques and values and a culture of academic excellence and freedom. Our world-class faculty pursue knowledge in service of society, involving students in innovative scholarship and research programs. As a premier Sino-US joint-venture university, we embrace the integration of global, national, and local traditions of thought and experience and promote cross-cultural understanding and cross-border collaborations."
+    },
+    {
+      "passage_id": "p0003",
+      "neighbor_rank": 4,
+      "neighbor_id": "p0015",
+      "similarity": 0.7431,
+      "passage_id_neighbor": "p0015",
+      "section": "Animating Principles",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University provides a 21st century liberal arts and sciences education that helps students develop a sense of social responsibility and global citizenship, as well as strong and transferable intellectual and practical skills such as communication, analytical and problem-solving skills, and a demonstrated ability to apply knowledge and skills in real-world settings."
+    },
+    {
+      "passage_id": "p0003",
+      "neighbor_rank": 5,
+      "neighbor_id": "p0195",
+      "similarity": 0.7336,
+      "passage_id_neighbor": "p0195",
+      "section": "Arts and Culture",
+      "cluster_name": "Credit Transfer and Academic Procedures",
+      "text": "Duke Kunshan University provides students an array of opportunities to expand, enhance, and explore the areas of Arts, Culture and Entertainment. This is done through various creative mediums such as visual arts and crafts workshops, performances, excursions incorporating artists and/or personalized crafts plus local cultural excursions to Shanghai and around Jiangsu Province. One DKU's signature programs is the Arts & Music Festival Week where many of these mediums come to life on campus. Other major series initiatives include, but are not limited to, Arts November, Creative Makers' Studio, and This is Jiangsu Series. We hope to provide students with opportunities to showcase their artistic talents and connect the community through arts and culture!"
+    }
+  ]
+}
