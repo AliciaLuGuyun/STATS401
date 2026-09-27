@@ -1,0 +1,134 @@
+{
+  "visualization_page": "https://www.cdc.gov/obesity/data-and-statistics/adult-obesity-prevalence-maps.html",
+  "retrieved": "2026-09-27",
+  "suppression_rule": "Sample size <50, relative standard error >=30%, or no data in a specific year.",
+  "state_level_sources": [
+    {
+      "filename": "2_2025-Obesity-by-state.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/2_2025-Obesity-by-state.csv",
+      "characteristic": "Overall",
+      "group": "All adults",
+      "period": "BRFSS 2025",
+      "rows": 54,
+      "suppressed_rows": 4,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "3_2025-obesity-by-state-and-aged-18-39.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/3_2025-obesity-by-state-and-aged-18-39.csv",
+      "characteristic": "Age",
+      "group": "Adults aged 18–39 years",
+      "period": "BRFSS 2025",
+      "rows": 54,
+      "suppressed_rows": 4,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "4_2025-obesity-aged-40-59.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/4_2025-obesity-aged-40-59.csv",
+      "characteristic": "Age",
+      "group": "Adults aged 40–59 years",
+      "period": "BRFSS 2025",
+      "rows": 54,
+      "suppressed_rows": 4,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "5_2025-obesity-aged-60.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/5_2025-obesity-aged-60.csv",
+      "characteristic": "Age",
+      "group": "Adults aged 60 years and older",
+      "period": "BRFSS 2025",
+      "rows": 54,
+      "suppressed_rows": 4,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "5-Asian.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2025/11/5-Asian.csv",
+      "characteristic": "Race/Ethnicity",
+      "group": "Non-Hispanic Asian adults",
+      "period": "BRFSS 2023–2025 pooled",
+      "rows": 54,
+      "suppressed_rows": 13,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "10_2023-2025_White.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/10_2023-2025_White.csv",
+      "characteristic": "Race/Ethnicity",
+      "group": "Non-Hispanic White adults",
+      "period": "BRFSS 2023–2025 pooled",
+      "rows": 54,
+      "suppressed_rows": 7,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "9_2023-2025_Hispanic.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/9_2023-2025_Hispanic.csv",
+      "characteristic": "Race/Ethnicity",
+      "group": "Hispanic adults",
+      "period": "BRFSS 2023–2025 pooled",
+      "rows": 54,
+      "suppressed_rows": 7,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "6_2023-2025-American-Indian-Native-American.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/6_2023-2025-American-Indian-Native-American.csv",
+      "characteristic": "Race/Ethnicity",
+      "group": "Non-Hispanic American Indian or Alaska Native adults",
+      "period": "BRFSS 2023–2025 pooled",
+      "rows": 54,
+      "suppressed_rows": 10,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    },
+    {
+      "filename": "8_2023-2025_Black.csv",
+      "source_url": "https://www.cdc.gov/obesity/media/files/2026/09/8_2023-2025_Black.csv",
+      "characteristic": "Race/Ethnicity",
+      "group": "Non-Hispanic Black adults",
+      "period": "BRFSS 2023–2025 pooled",
+      "rows": 54,
+      "suppressed_rows": 9,
+      "fields": [
+        "State",
+        "Prevalence",
+        "95% CI"
+      ]
+    }
+  ],
+  "education_note": "The current page reports four 2025 national education estimates but does not publish state-level education maps or CSV tables."
+}

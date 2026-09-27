@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adult Obesity Prevalence — CDC Map Redesign</title>
+  <meta name="description" content="A D3 redesign of CDC adult obesity prevalence maps with demographic controls and a linked state ranking.">
+  <link rel="stylesheet" href="css/style.css?v=final-audit-2">
+</head>
+<body>
+  <header class="hero">
+    <nav class="wrap project-nav" aria-label="Project navigation">
+      <a href="../index.html">← STATS 401 home</a>
+      <a href="report/visualization_critique_redesign_report.pdf">Final report (PDF)</a>
+    </nav>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Visualization critique &amp; redesign</p>
+        <h1>Adult Obesity Prevalence Across U.S. States</h1>
+        <p class="dek">Explore how self-reported adult obesity prevalence varies geographically and across population groups.</p>
+      </div>
+      <div class="hero-note">
+        <span class="note-label">Design question</span>
+        <p>Can one stable map and a linked ranking make demographic exploration easier than scrolling through many separate maps?</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap section" aria-labelledby="redesign-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Redesigned visualization</p>
+        <h2 id="redesign-heading">One geographic frame, multiple population views</h2>
+        <p>The map emphasizes <strong>where</strong> patterns occur. The ranking uses aligned position to show <strong>which states are higher or lower, and by how much</strong>.</p>
+      </div>
+
+      <div class="controls" aria-label="Visualization controls">
+        <label>Characteristic
+          <select id="characteristic-select"></select>
+        </label>
+        <label id="group-control">Group
+          <select id="group-select"></select>
+        </label>
+        <button id="clear-selection" type="button">Clear selected state</button>
+      </div>
+
+      <div class="period-row" aria-live="polite">
+        <span>Data period</span>
+        <strong id="period-label">BRFSS 2025</strong>
+        <span id="scope-label" class="scope-label"></span>
+      </div>
+
+      <div id="education-notice" class="education-notice" hidden>
+        <strong>National summary only.</strong>
+        The current CDC page reports national 2025 education estimates but does not publish state-level education maps or downloadable state tables. The map is therefore not colored for this selection; the comparison below shows only the published national values.
+      </div>
+
+      <div class="viz-layout">
+        <article class="panel map-panel">
+          <div class="panel-title">
+            <div>
+              <p class="panel-kicker">Geographic view</p>
+              <h3 id="map-title">Adult obesity prevalence</h3>
+            </div>
+            <p id="map-help" class="panel-help">Hover for details · click to keep a state selected</p>
+          </div>
+          <div id="map" class="chart" role="img" aria-labelledby="map-title"></div>
+          <div class="legend-wrap" aria-label="Prevalence color legend">
+            <div id="legend"></div>
+            <div class="missing-key"><span></span>Unavailable / suppressed</div>
+          </div>
+          <div id="territory-cards" class="territory-cards"></div>
+        </article>
+
+        <article class="panel rank-panel">
+          <div class="panel-title">
+            <div>
+              <p class="panel-kicker">Quantitative view</p>
+              <h3 id="rank-title">States ranked by prevalence</h3>
+            </div>
+            <p class="panel-help">Same data, encoded by position</p>
+          </div>
+          <div id="dotplot" class="chart dotplot" role="img" aria-labelledby="rank-title"></div>
+        </article>
+      </div>
+
+      <div id="selected-detail" class="selected-detail" aria-live="polite">
+        <span class="detail-placeholder">Select a state to keep its value in view.</span>
+      </div>
+    </section>
+
+    <section class="original-section">
+      <div class="wrap original-grid">
+        <div>
+          <p class="eyebrow">Original visualization</p>
+          <h2>CDC Adult Obesity Prevalence Maps</h2>
+          <p>The CDC publishes separate static choropleths for overall prevalence, age groups, and race/ethnicity groups. Each map is effective for broad spatial pattern detection, but comparison across groups requires scrolling and remembering earlier maps.</p>
+          <div class="original-purpose">
+            <p><strong>Message</strong><span>Adult obesity is widespread, but prevalence and geographic patterns vary across states and population groups.</span></p>
+            <p><strong>Audience</strong><span>Public-health practitioners and policymakers, researchers, journalists, and members of the public.</span></p>
+            <p><strong>Primary tasks</strong><span>Locate a state, identify its prevalence category, notice regional clustering, and inspect how patterns differ across published groups.</span></p>
+          </div>
+          <a class="source-link" href="https://www.cdc.gov/obesity/data-and-statistics/adult-obesity-prevalence-maps.html" target="_blank" rel="noreferrer">View the current CDC source ↗</a>
+        </div>
+        <figure>
+          <img src="assets/cdc-2025-overall-banner.jpg" alt="CDC 2025 overall adult obesity prevalence map">
+          <figcaption>CDC, “Adult Obesity Prevalence Maps,” 2025 data.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap section critique" aria-labelledby="critique-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Critique → redesign</p>
+        <h2 id="critique-heading">What was preserved, and what changed</h2>
+      </div>
+      <div class="critique-grid">
+        <article class="strength"><span>Strength 01</span><h3>Geographic position fits the task</h3><p>State location makes regional clustering visible. The redesign preserves the map as its primary view.</p></article>
+        <article class="strength"><span>Strength 02</span><h3>Consistent encoding is understandable</h3><p>Repeated state shapes and ordered prevalence color make each original map individually easy to interpret. The redesign keeps a stable geography and ordered color scale.</p></article>
+        <article><span>Issue 01</span><h3>Repeated maps require scrolling</h3><p>Comparing groups depends on navigation and memory. Selectors instead update one persistent geographic frame.</p></article>
+        <article><span>Issue 02</span><h3>Cross-group exploration is cumbersome</h3><p>Separate sections slow exploratory switching. Characteristic and subgroup controls make the same views update directly while displaying the active period.</p></article>
+        <article><span>Issue 03</span><h3>Color and area are imprecise</h3><p>Color is weaker than aligned position for exact comparison, and large states attract more attention. The linked ranking and tooltip expose exact values.</p></article>
+      </div>
+    </section>
+
+    <section class="data-section">
+      <div class="wrap data-grid">
+        <div>
+          <p class="eyebrow">Data &amp; sources</p>
+          <h2>Provenance is part of the interface</h2>
+        </div>
+        <div>
+          <p>Overall and age estimates use <strong>BRFSS 2025</strong>. Race/ethnicity estimates pool <strong>BRFSS 2023–2025</strong>. The interface displays the active period rather than implying that every group shares an identical time window.</p>
+          <ul>
+            <li><a href="https://www.cdc.gov/obesity/data-and-statistics/adult-obesity-prevalence-maps.html" target="_blank" rel="noreferrer">CDC Adult Obesity Prevalence Maps</a></li>
+            <li><a href="https://www.cdc.gov/brfss/" target="_blank" rel="noreferrer">Behavioral Risk Factor Surveillance System</a></li>
+            <li><a href="https://github.com/topojson/us-atlas" target="_blank" rel="noreferrer">U.S. Atlas state geometry derived from Census cartographic boundaries</a></li>
+          </ul>
+          <p class="fine-print">An estimate is unavailable when the sample size is below 50, the relative standard error is at least 30%, or no data are available. Missing values are never converted to zero.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+
+  <script src="js/d3.v7.min.js"></script>
+  <script src="js/topojson-client.min.js"></script>
+  <script src="js/main.js?v=final-audit"></script>
+</body>
+</html>
