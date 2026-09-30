@@ -1,0 +1,40 @@
+.audit-card,
+.status-note {
+  border-left: 4px solid steelblue;
+  background: #f4f7fa;
+  padding: 10px 12px;
+  margin: 16px 0;
+}
+
+.audit-card ul { margin: 6px 0 0; padding-left: 22px; }
+.map-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 14px 0 8px; color: #555; font-size: 14px; }
+.map-toolbar span { margin-right: auto; }
+.map-toolbar button { padding: 6px 10px; font: inherit; }
+.map-frame { width: 100%; overflow: hidden; border: 1px solid #ccc; background: #f8fbfd; position: relative; }
+.map-frame svg { display: block; width: 100%; height: auto; }
+.country,
+.cartogram .feature { vector-effect: non-scaling-stroke; stroke: #fff; stroke-width: 0.65px; cursor: pointer; }
+.country.no-data,
+.cartogram .feature.no-data { fill: #dedede !important; }
+.country.is-linked,
+.cartogram .feature.is-linked { stroke: #111 !important; stroke-width: 2.5px !important; filter: drop-shadow(0 0 1px #fff); }
+.country.is-selected,
+.cartogram .feature.is-selected { stroke: #ffbf00 !important; stroke-width: 3.5px !important; }
+.sphere { fill: #eef5f8; stroke: #b8c7cf; stroke-width: 0.7px; }
+.legend-wrap { margin: 10px 0 20px; overflow-x: auto; }
+.legend-wrap svg { min-width: 660px; display: block; }
+.legend-label { fill: #333; font-size: 12px; }
+.missing-key { display: inline-flex; align-items: center; gap: 7px; color: #555; font-size: 13px; margin-top: 3px; }
+.missing-key i { width: 17px; height: 13px; border: 1px solid #aaa; background: #dedede; }
+.cartogram-frame { min-height: 420px; overflow-x: auto; }
+.cartogram-frame > div,
+.cartogram-frame svg { min-width: 760px; }
+.cartogram-tooltip { display: none !important; }
+.lab9-tooltip { position: fixed; z-index: 10; max-width: 260px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+.design-comparison { max-width: 85ch; }
+.error-card { border-left-color: darkred; color: darkred; }
+
+@media (max-width: 680px) {
+  .map-frame { overflow-x: auto; }
+  #choropleth svg { min-width: 660px; }
+}

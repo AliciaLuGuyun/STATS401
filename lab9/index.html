@@ -3,12 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 9</title>
+  <title>Lab 9 - 2025 GDP Maps</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lab 9</h1>
-  <p>Lab 9 will be added here.</p>
   <p><a href="../index.html">Back to home</a></p>
+  <h1>Lab 9: Geospatial Visualization</h1>
+
+  <h2>1. Dataset Description</h2>
+  <p>This lab maps the 50 largest economies by projected 2025 nominal GDP. The supplied data use current-price billions of U.S. dollars and are based on the IMF World Economic Outlook, October 2025 series; observations may include IMF staff estimates and may later be revised.</p>
+  <p><a href="https://github.com/hiilab/stats-401/blob/main/Lab9.md">Official assignment</a> ·
+    <a href="../data/lab9_gdp_2025_top50.csv">Provided GDP CSV</a> ·
+    <a href="https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson">Natural Earth 1:50m country boundaries</a></p>
+
+  <div id="join-audit" class="audit-card" role="status">Loading and auditing geographic data...</div>
+
+  <h2>2. 2025 GDP Choropleth</h2>
+  <p>Country shape preserves geography and fill color encodes nominal GDP. Because the supplied values span roughly two orders of magnitude, the map uses a logarithmic color scale: it preserves rank and variation among smaller economies without allowing the United States and China to consume nearly the entire color range. Gray means <strong>not in the provided top-50 dataset</strong>, not zero GDP.</p>
+  <div class="map-toolbar">
+    <span>Scroll or pinch to zoom; drag to pan. Hover or click a country to link both maps.</span>
+  </div>
+  <div id="choropleth" class="map-frame" aria-label="World choropleth of 2025 nominal GDP"></div>
+  <div id="color-legend" class="legend-wrap" aria-label="GDP color legend"></div>
+
+  <h2>3. 2025 GDP Cartogram</h2>
+  <p><strong>Country area represents 2025 nominal GDP.</strong> This is a contiguous cartogram computed with the Dougenik-style <a href="https://github.com/vasturiano/cartogram-chart">cartogram-chart</a> implementation. Boundaries are iteratively distorted, rather than replaced by circles or uniformly scaled. Neutral countries are no-data geographic context and receive only a small positive computational floor so the topology remains visible; their area must not be read as GDP.</p>
+  <p id="cartogram-status" class="status-note" role="status">Computing distorted country geometry...</p>
+  <div id="cartogram" class="map-frame cartogram-frame" aria-label="Contiguous world cartogram sized by 2025 nominal GDP"></div>
+
+  <h2>4. Design and Comparison</h2>
+  <p class="design-comparison">The United States and China are the most prominent economies in both views, but they communicate that prominence differently. In the choropleth, their dark fills stand out while Russia, Canada, and other geographically large countries still occupy substantial screen space. The cartogram makes economic magnitude harder to miss: the United States and China swell dramatically, while large-land-area economies such as Russia, Canada, and Australia contract relative to their familiar outlines. Compact high-output economies—including Germany, Japan, the United Kingdom, France, and South Korea—gain visual presence. The choropleth preserves coastlines, neighborhood, relative position, and recognizable country shapes, so it best supports questions about regional patterns, location, and which nearby countries fall into similar GDP ranges. The cartogram deliberately distorts shape, distance, direction, and physical area; small or tightly packed countries can become difficult to identify. Its area encoding is better for judging each economy’s contribution to the top-50 total and for seeing how physical size differs from economic size. Changing from color to area therefore shifts attention from “where are high values?” to “how much of the whole does each country represent?” Neither view is universally better: linked highlighting lets the geographic map restore identity when distortion becomes severe, while the cartogram makes magnitude comparisons more immediate.</p>
+
+  <div id="tooltip" class="tooltip lab9-tooltip" role="tooltip"></div>
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="vendor/topojson-server.min.js"></script>
+  <script src="vendor/cartogram-chart.min.js"></script>
+  <script src="main.js?v=5"></script>
 </body>
 </html>

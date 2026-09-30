@@ -1,8 +1,6 @@
 # STATS 401 Labs
 
-Course website for STATS 401: Data Acquisition and Visualization.
-
-Lab 1 is a D3.js student score bar chart that loads its data from `data/students.csv`.
+This is the course website for STATS 401: Data Acquisition and Visualization. It contains the completed lab assignments and their supporting data and code.
 
 ## Run locally
 
