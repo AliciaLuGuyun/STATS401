@@ -1,0 +1,29 @@
+✔ thumbs up requires upright thumb and four folded fingers; open palm excluded (1.284042ms)
+✔ stable thumbs up fires once and requires release before another action (2.184417ms)
+✔ short thumb hold and moving thumbs up do not toggle or swipe (0.191042ms)
+✔ open palm has no stationary action (0.581875ms)
+✔ multi-frame horizontal motion determines mirrored swipe direction (0.152ms)
+✔ pointing, even when moving horizontally, never navigates the timeline (0.407292ms)
+✔ point requires stability and returns actual index fingertip coordinates (0.104917ms)
+✔ pinch distance is hand-size normalized and scale invariant (1.251166ms)
+✔ pinch requires prior stable point, brief hold, and only selects once (0.632958ms)
+✔ pinch hysteresis blocks swipes and requires sustained wide release (2.977458ms)
+✔ pinch candidates moving horizontally cannot swipe (0.183166ms)
+✔ pinch band cannot complete a candidate; threshold is configurable (0.598334ms)
+✔ lost hand cancels incomplete thumb/pinch and hides pointing (0.208333ms)
+✔ brief loss does not release a held thumb; sustained loss rearms it (0.764625ms)
+✔ low confidence, invalid landmarks, multiple hands and identity changes cancel candidates (0.14325ms)
+✔ frame gaps, jitter, vertical travel and insufficient horizontal movement are rejected (0.568875ms)
+✔ swipe latch and global cooldown prevent repeated commands (0.488333ms)
+✔ camera mapping mirrors x, preserves y, clamps edges and uses viewBox offsets (0.068792ms)
+✔ cursor smoothing reduces jitter and reset avoids stale movement (0.051208ms)
+✔ nearest-node hit testing rejects distant nodes and handles responsive CSS-pixel radius (0.055042ms)
+✔ pinch cooldown blocks a second selection even after release and pointing (0.198ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.49875

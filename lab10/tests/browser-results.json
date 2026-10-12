@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "passed": [
+    "Original Lab 7 and both CSVs unchanged (SHA-256)",
+    "Data rendered: 12 nodes, Day 1 has 3 links, 367 records",
+    "Camera stays off until explicit click",
+    "Playback, slider, reset, and one persistent SVG work",
+    "Gesture bridge maps both swipes and thumbs up; pauses manual steps",
+    "Day boundaries clamp; playback wraps Day 60 to Day 1",
+    "Mouse hover, keyboard focus, and node drag remain usable",
+    "Permission denial and no-camera feedback preserve controls",
+    "Start/Stop release real test-stream tracks and terminate worker",
+    "Cancel pending permission request stops late stream",
+    "Model failure releases resources with visible fallback message",
+    "Page visibility change stops camera and requires explicit restart",
+    "Deterministic landmarks traverse detector → gesture bridge → original D3",
+    "Open palm command removed; guide presents all five active gestures",
+    "Stable point maps to SVG, pauses playback and hovers without selecting",
+    "Pinch selects frozen cursor target once and highlights current neighbors",
+    "Selection survives time changes and camera stop; details and edges follow day",
+    "Pointing far from nodes and pinching cannot select a remote company",
+    "Tracking loss cancels incomplete pinch, hides cursor, preserves selection",
+    "Mouse and keyboard selection plus Escape retain conventional fallback",
+    "Mobile page fits viewport",
+    "No critical JavaScript errors",
+    "Real MediaPipe worker initializes and infers a blank frame (not webcam)"
+  ],
+  "errors": [],
+  "realWebcamTested": false
+}

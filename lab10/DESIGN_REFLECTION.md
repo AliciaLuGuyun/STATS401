@@ -1,0 +1,7 @@
+# Design reflection
+
+I extended Lab 7’s temporal commercial network while preserving its data, force layout, rendering, and timeline controls. Webcam gestures support comparing adjacent days and exploring a company’s changing relationships. Horizontal swipes navigate time, thumbs-up toggles playback, pointing moves a virtual cursor, and pinching selects a company and highlights its current neighbors and edges.
+
+The interface separates hover preview from persistent selection. Pointing pauses playback, while freezing the cursor during a pinch prevents finger closure from shifting the target. Recognition feedback, stability checks, cooldown, hysteresis, and release requirements make the interaction understandable and limit repeated commands.
+
+In manual interface testing, gesture recognition was imperfect: pointing was frequently not detected reliably. This observed limitation also affects pinch selection, which depends on first acquiring a pointing target. Gesture-based selection therefore remains experimental. Accuracy may depend on hand orientation, lighting, and camera conditions, but these factors were not systematically measured. Automated synthetic tests verify logic and integration rather than real-world recognition accuracy. Smoothing and deliberate holds also introduce expected latency. Mouse and keyboard selection, timeline controls, and explicit clearing provide practical fallback when gestures fail.

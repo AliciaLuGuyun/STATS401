@@ -1,0 +1,44 @@
+body { max-width: 1320px; }
+.workspace { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 24px; align-items: start; }
+main { min-width: 0; }
+.gesture-panel { padding: 16px; border: 1px solid #ddd; background: #fafafa; border-radius: 5px; }
+.gesture-panel h2 { font-size: 20px; margin: 0 0 14px; }
+button { padding: 7px 10px; font: inherit; cursor: pointer; }
+button:disabled { cursor: default; opacity: .5; }
+button:focus-visible, input:focus-visible { outline: 3px solid #4e79a7; outline-offset: 2px; }
+.camera-buttons { display: flex; gap: 8px; margin-bottom: 12px; }
+.preview { position: relative; aspect-ratio: 4 / 3; background: #e9e9e9; overflow: hidden; border-radius: 3px; }
+.preview video, .preview canvas { position: absolute; width: 100%; height: 100%; object-fit: fill; transform: scaleX(-1); }
+#preview-placeholder { position: absolute; inset: 0; display: grid; place-items: center; color: #555; }
+.gesture-panel p, .gesture-guide { font-size: 14px; line-height: 1.5; }
+dt { color: #666; font-size: 13px; margin-top: 12px; }
+dd { margin: 4px 0 0; font-size: 14px; }
+#action-status { padding: 8px; background: #e8f0f7; border-left: 3px solid #4e79a7; min-height: 36px; }
+.gesture-guide { padding-left: 20px; }
+.gesture-guide li { margin: 6px 0; }
+.hint { color: #555; font-size: 14px; }
+#network svg { min-width: 0; }
+.daily-summary span { white-space: normal; }
+.legend { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+#playback-status { color: #555; font-size: 14px; }
+@media (max-width: 900px) { .workspace { grid-template-columns: 1fr; } .gesture-panel { max-width: 380px; } }
+@media (max-width: 500px) { body { margin: 20px auto; padding: 0 12px; } h1 { font-size: 26px; } .legend { grid-template-columns: 1fr; } }
+[hidden] { display: none !important; }
+/* Lab 7 hides tooltips with opacity; remove hidden hitboxes from page layout too. */
+#tooltip[style*="opacity: 0"] { display: none; }
+#tooltip { max-width: 260px; }
+.node-exploration { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; font-size: 14px; }
+.node-exploration > div { border: 1px solid #ddd; padding: 12px; background: #fafafa; }
+.node-exploration p { margin: 8px 0; }
+#hover-details, #selected-details { line-height: 1.5; }
+#clear-selection { margin-top: 10px; }
+.hover-ring { fill: none; stroke: #aa6500; stroke-width: 3; stroke-dasharray: 6 5; }
+.selection-ring { fill: none; stroke: #245caa; stroke-width: 4; }
+.virtual-cursor circle { fill: #fff; fill-opacity: .7; stroke: #007d80; stroke-width: 3; }
+.virtual-cursor path { stroke: #007d80; stroke-width: 2; }
+.virtual-cursor text { fill: #007d80; font-size: 16px; font-weight: bold; paint-order: stroke; stroke: white; stroke-width: 4; }
+.company.node-neighbor path { stroke: #245caa; stroke-width: 4; }
+.company.node-selected path { stroke: #245caa; stroke-width: 4; opacity: 1 !important; }
+.selection-dim { opacity: .18 !important; }
+.link.selection-connected { stroke-opacity: 1 !important; filter: drop-shadow(0 0 2px #245caa); }
+@media (max-width: 500px) { .node-exploration { grid-template-columns: 1fr; } }

@@ -3,12 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 10</title>
+  <title>Lab 10 — Gesture-controlled Temporal Network</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../lab7/lab7.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Lab 10</h1>
-  <p>Lab 10 will be added here.</p>
-  <p><a href="../index.html">Back to home</a></p>
+  <p><a href="../index.html">Back to home</a> · <a href="../lab7/index.html">Original Lab 7</a></p>
+  <h1>Lab 10: Navigate time with hand gestures</h1>
+  <p>Explore Lab 7’s commercial network: 12 companies and 367 transactions across 60 days. Swipe to compare adjacent days, use thumbs up to play or pause, and point then pinch to explore a company’s relationships.</p>
+  <p id="data-status" role="status">Loading temporal network data...</p>
+  <div class="workspace">
+    <main aria-label="Temporal commercial network">
+      <div class="temporal-controls">
+        <button id="previous" type="button" disabled>Previous day</button>
+        <button id="next" type="button" disabled>Next day</button>
+        <button id="play" type="button" disabled>Play</button>
+        <button id="pause" type="button" disabled>Pause</button>
+        <button id="reset" type="button" disabled>Reset</button>
+        <label for="day-slider">Day</label>
+        <input id="day-slider" type="range" min="1" max="60" value="1" disabled>
+        <strong id="current-date">Day 1</strong>
+        <span id="playback-status" role="status">Paused</span>
+      </div>
+      <div id="daily-summary" class="daily-summary" aria-live="polite"></div>
+      <div id="network" class="visual-scroll"></div>
+      <p class="hint">Hover for company and transaction details; drag nodes to inspect relationships. Manual day changes pause playback. Playback loops after Day 60; manual navigation stops at the boundaries.</p>
+      <section class="node-exploration" aria-label="Node exploration">
+        <div><strong>Hovered node (preview only)</strong><p id="hovered-node">None</p><div id="hover-details"></div></div>
+        <div><strong>Selected node (stays selected)</strong><p id="selected-node" role="status">None</p><div id="selected-details"></div>
+          <button id="clear-selection" type="button" disabled>Clear selection</button>
+        </div>
+      </section>
+      <p class="hint">Point to move the teal crosshair. An amber dashed ring previews a nearby company; pinch to select it with a solid blue ring and highlight its current-day neighbors. Click a company or press Enter on a focused node for the same selection. Clear selection or Escape removes it. Selection follows the company across days.</p>
+      <div id="legend" class="legend"></div>
+    </main>
+    <aside class="gesture-panel" aria-labelledby="gesture-heading">
+      <h2 id="gesture-heading">Hand controls</h2>
+      <div class="camera-buttons">
+        <button id="start-camera" type="button" disabled>Start Camera</button>
+        <button id="stop-camera" type="button" disabled>Stop Camera</button>
+      </div>
+      <div class="preview">
+        <video id="camera" autoplay playsinline muted aria-label="Mirrored live camera preview"></video>
+        <canvas id="landmarks" width="320" height="240" aria-label="Detected hand landmarks"></canvas>
+        <span id="preview-placeholder">Camera off</span>
+      </div>
+      <p id="camera-status" role="status">Camera off. Start Camera requests permission.</p>
+      <dl>
+        <dt>Hand tracking</dt><dd id="tracking-status">Inactive</dd>
+        <dt>Current gesture</dt><dd id="gesture-status">None</dd>
+        <dt>Gesture stability</dt><dd id="gesture-stability">Inactive</dd>
+        <dt>Cursor location</dt><dd id="cursor-status">Inactive</dd>
+        <dt>Last executed action</dt><dd id="action-status" role="status">None yet</dd>
+      </dl>
+      <ul class="gesture-guide">
+        <li>Swipe Left → Previous Day</li>
+        <li>Swipe Right → Next Day</li>
+        <li>Thumbs Up → Play/Pause</li>
+        <li>Point → Explore Nodes</li>
+        <li>Pinch → Select Node</li>
+      </ul>
+      <p class="hint">Use one hand in good light, facing the camera. Move across about one fifth of the mirrored preview within half a second. To play/pause, fold all four fingers and hold your thumb upright and still for about half a second, then release. To explore, extend only your index finger and move it across the preview; exploration pauses playback. Bring thumb and index tips together briefly to select the hovered company. The cursor freezes while pinching, so closing your fingers does not shift the target. Separate fingertips and point again before another pinch. After swiping, hold still or lower your hand to rearm. An open palm held still has no command.</p>
+      <p class="hint">Video is processed locally in your browser and is never recorded or uploaded. Starting downloads the MediaPipe runtime and model. Leaving this tab stops the camera; restart explicitly when you return.</p>
+    </aside>
+  </div>
+  <p><a href="README.md">Setup and usage</a> · <a href="DESIGN_REFLECTION.md">Design reflection</a> · <a href="TESTING.md">Testing summary</a> · <a href="https://github.com/hiilab/stats-401/blob/main/Lab10.md">Assignment</a></p>
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <!-- Reuse the original renderer and data loader byte-for-byte. -->
+  <script src="../lab9/vendor/d3.v7.min.js"></script>
+  <script src="../lab7/lab7.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>
